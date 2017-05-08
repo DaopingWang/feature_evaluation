@@ -35,6 +35,10 @@ public class Article {
         this.features.add(feature);
     }
 
+    public ArrayList<Feature> getFeatures(){
+        return features;
+    }
+
     public String getArticleID(){
         return this.articleID;
     }

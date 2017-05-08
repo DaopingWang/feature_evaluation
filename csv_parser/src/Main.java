@@ -15,6 +15,8 @@ public class Main {
 
     public static void main(String[] args){
         ArrayList<Article> article_list = new ArrayList<>();
+        ArrayList<String> feature_list = new ArrayList<>();
+        ArrayList<Float> completeness_list = new ArrayList<>();
 
         tablet_keywords.add("Tablet");
         tablet_keywords.add("Tablet PC");
@@ -29,13 +31,39 @@ public class Main {
 
         try {
             collectTabletArticles(tablet_article_keywords_file, article_list);
-            collectFeatureValues(article_list, article_feature_value_file);
+            collectFeatureValues(article_list, feature_list, article_feature_value_file);
         } catch (IOException e){
             e.printStackTrace();
         }
 
-        for(int i = 0; i < article_list.size(); i++){
-            System.out.println(i + "\t" + article_list.get(i).getArticleID());
+        //findCompleteFeatures(article_list, feature_list);
+        float avgCompleteness = 0;
+        for(int i = 0; i < feature_list.size(); i++){
+            float buf = calculateFeatureCompleteness(article_list, feature_list.get(i));
+            completeness_list.add(buf);
+            avgCompleteness += buf;
+        }
+        avgCompleteness = avgCompleteness /completeness_list.size();
+        removeWeakFeatures(feature_list, completeness_list, Math.max(avgCompleteness, 30));
+        removeIncompleteArticles(article_list, feature_list);
+
+        System.out.println(article_list.size() + " articles");
+        for(int i = 0; i < feature_list.size(); i++){
+            System.out.println(feature_list.get(i) + "\t" + Float.toString(completeness_list.get(i)) + "%");
+        }
+    }
+
+    public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, ){
+
+    }
+
+    public static void removeWeakFeatures(ArrayList<String> feature_List, ArrayList<Float> completeness_list, float avgCompleteness){
+        for(int i = 0; i < feature_List.size(); i++){
+            if(completeness_list.get(i) < avgCompleteness){
+                feature_List.remove(i);
+                completeness_list.remove(i);
+                i--;
+            }
         }
     }
 
@@ -50,7 +78,63 @@ public class Main {
         }
     }
 
-    public static void collectFeatureValues(ArrayList<Article> article_list, String article_feature_value_file) throws IOException{
+    public static float calculateFeatureCompleteness(ArrayList<Article> article_list, String feature){
+        float articleNumber = article_list.size();
+        float foundNum = 0;
+
+        for(int i = 0; i < articleNumber; i++){
+            for(int j = 0; j < article_list.get(i).getFeatures().size(); j++){
+                if(article_list.get(i).getFeatures().get(j).getName().equals(feature)){
+                    foundNum++;
+                    break;
+                }
+            }
+        }
+        return (foundNum/articleNumber)*100;
+    }
+
+    public static void removeIncompleteArticles(ArrayList<Article> article_list, ArrayList<String> feature_list){
+        for(int i = 0; i < article_list.size(); i++){
+            boolean full = true;
+            for(int j = 0; j < feature_list.size(); j++){
+                for(int k = 0; k < article_list.get(i).getFeatures().size(); k++){
+                    if(feature_list.get(j).equals(article_list.get(i).getFeatures().get(k).getName())){
+                        break;
+                    }
+                    if(k == article_list.get(i).getFeatures().size() - 1){
+                        full = false;
+                        break;
+                    }
+                }
+                if(full) continue;
+                article_list.remove(i);
+                i--;
+                break;
+            }
+        }
+    }
+
+    public static void findCompleteFeatures(ArrayList<Article> article_list, ArrayList<String> feature_list){
+        for(int i = 0; i < feature_list.size(); i++){
+            boolean exists = false;
+            for(int j = 0; j < article_list.size(); j++){
+                for(int k = 0; k < article_list.get(j).getFeatures().size(); k++){
+                    if(article_list.get(j).getFeatures().get(k).getName().equals(feature_list.get(i))){
+                        exists = true;
+                        break;
+                    }
+                }
+                if(!exists){
+                    feature_list.remove(i);
+                    i--;
+                    break;
+                }
+                exists = false;
+            }
+        }
+    }
+
+    public static void collectFeatureValues(ArrayList<Article> article_list, ArrayList<String> feature_list, String article_feature_value_file) throws IOException{
         String[] lineBuffer;
 
         CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(article_feature_value_file), "Cp1252"), '\t', '\"', 1);
@@ -67,6 +151,9 @@ public class Main {
                         default:
                             System.out.println("collectFeatureValues: unexpected lineBuffer length: " + Integer.toString(lineBuffer.length));
                             System.exit(666);
+                    }
+                    if(!feature_list.contains(lineBuffer[2])){
+                        feature_list.add(lineBuffer[2]);
                     }
                     break;
                 }

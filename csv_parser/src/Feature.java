@@ -4,6 +4,7 @@
 public class Feature {
     private String name;
     private String value;
+    private float completeness;
 
     public Feature(String name){
         this.name = name;
@@ -20,5 +21,13 @@ public class Feature {
 
     public String getValue(){
         return value;
+    }
+
+    public void setCompleteness(float completeness){
+        this.completeness = completeness;
+    }
+
+    public float getCompleteness(){
+        return this.completeness;
     }
 }
