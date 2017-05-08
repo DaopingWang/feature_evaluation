@@ -4,9 +4,7 @@
 
 import com.opencsv.*;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
@@ -17,6 +15,7 @@ public class Main {
         ArrayList<Article> article_list = new ArrayList<>();
         ArrayList<String> feature_list = new ArrayList<>();
         ArrayList<Float> completeness_list = new ArrayList<>();
+        ArrayList<String> manual_feature_list = new ArrayList<>();
 
         tablet_keywords.add("Tablet");
         tablet_keywords.add("Tablet PC");
@@ -24,6 +23,16 @@ public class Main {
         tablet_keywords.add("2-in-1 Tablet");
         tablet_keywords.add("Hybrid-Tablet");
         tablet_keywords.add("Tab Samsung");
+
+        manual_feature_list.add("Betriebssystem");
+        manual_feature_list.add("SpeicherkapazitÃ¤t");
+        manual_feature_list.add("Arbeitsspeicher");
+        manual_feature_list.add("CPU-Taktfrequenz");
+        manual_feature_list.add("Bilddiagonale");
+        manual_feature_list.add("Drahtlose Kommunikation");
+        manual_feature_list.add("Hersteller");
+
+
 
         String feature_data_path = "C:/Users/wang.daoping/Documents/feature data/";
         String tablet_article_keywords_file = feature_data_path + "tablets_article_mercateo_keywords.dat";
@@ -44,8 +53,15 @@ public class Main {
             avgCompleteness += buf;
         }
         avgCompleteness = avgCompleteness /completeness_list.size();
-        removeWeakFeatures(feature_list, completeness_list, Math.max(avgCompleteness, 30));
+        removeWeakFeatures(feature_list, completeness_list, Math.max(avgCompleteness, 40));
         removeIncompleteArticles(article_list, feature_list);
+        flushArticleFeatureList(article_list, manual_feature_list);
+
+        try {
+            writeArticleFeatureCSV(article_list, manual_feature_list, feature_data_path);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
 
         System.out.println(article_list.size() + " articles");
         for(int i = 0; i < feature_list.size(); i++){
@@ -53,8 +69,38 @@ public class Main {
         }
     }
 
-    public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, ){
+    public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, String outputPath) throws IOException{
+        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "manual_articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
+        String lineBuffer;
 
+        for(int i = 0; i < article_list.size(); i++){
+            lineBuffer = article_list.get(i).getArticleID();
+            for(int j = 0; j < feature_list.size(); j++){
+                lineBuffer += "\t" + article_list.get(i).getFeatures().get(j).getName() + "\t" + article_list.get(i).getFeatures().get(j).getValue();
+            }
+            String[] record = lineBuffer.split("\t");
+            writer.writeNext(record);
+        }
+        writer.close();
+    }
+
+    public static void flushArticleFeatureList(ArrayList<Article> article_list, ArrayList<String> feature_list){
+        for(int i = 0; i < article_list.size(); i++){
+            for(int j = 0; j < feature_list.size(); j++){
+                for(int k = 0; k < article_list.get(i).getFeatures().size(); k++){
+                    if(article_list.get(i).getFeatures().get(k).getName().equals(feature_list.get(j))){
+                        Feature buf = article_list.get(i).getFeatures().get(k);
+                        article_list.get(i).getFeatures().set(k, article_list.get(i).getFeatures().get(j));
+                        article_list.get(i).getFeatures().set(j, buf);
+                        break;
+                    }
+                    if(k == article_list.get(i).getFeatures().size() - 1){
+                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), "TODO"));
+                        break;
+                    }
+                }
+            }
+        }
     }
 
     public static void removeWeakFeatures(ArrayList<String> feature_List, ArrayList<Float> completeness_list, float avgCompleteness){
