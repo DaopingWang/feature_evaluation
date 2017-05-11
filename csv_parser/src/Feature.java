@@ -30,4 +30,12 @@ public class Feature {
     public float getCompleteness(){
         return this.completeness;
     }
+
+    @Override public boolean equals(Object o){
+        if(o instanceof Feature)
+            return ((Feature) o).getName().equals(this.getName());
+        if(o instanceof String)
+            return (this.getName().equals(o));
+        return false;
+    }
 }

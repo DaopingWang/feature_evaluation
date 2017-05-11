@@ -29,48 +29,58 @@ public class Main {
         manual_feature_list.add("Arbeitsspeicher");
         manual_feature_list.add("CPU-Taktfrequenz");
         manual_feature_list.add("Bilddiagonale");
-        manual_feature_list.add("Drahtlose Kommunikation");
-        manual_feature_list.add("Hersteller");
+        //manual_feature_list.add("Festplatte");
 
 
 
         String feature_data_path = "C:/Users/wang.daoping/Documents/feature data/";
         String tablet_article_keywords_file = feature_data_path + "tablets_article_mercateo_keywords.dat";
         String article_feature_value_file = feature_data_path + "tablets_article_feature_value.dat";
+        String price_data_file = feature_data_path + "tablets_article_price_data.dat";
 
         try {
+            System.out.println("collectTableArticles");
             collectTabletArticles(tablet_article_keywords_file, article_list);
+            System.out.println("collectFeatureValues");
             collectFeatureValues(article_list, feature_list, article_feature_value_file);
+            System.out.println("collectPriceData");
+            collectPriceData(price_data_file, article_list);
         } catch (IOException e){
             e.printStackTrace();
         }
 
+        ArrayList<Article> new_article_list = findCompleteArticlesForFeatures(article_list, manual_feature_list);
+
         //findCompleteFeatures(article_list, feature_list);
+        System.out.println("calculateFeatureCompleteness");
         float avgCompleteness = 0;
-        for(int i = 0; i < feature_list.size(); i++){
-            float buf = calculateFeatureCompleteness(article_list, feature_list.get(i));
+        for(int i = 0; i < manual_feature_list.size(); i++){
+            float buf = calculateFeatureCompleteness(article_list, manual_feature_list.get(i));
             completeness_list.add(buf);
             avgCompleteness += buf;
         }
         avgCompleteness = avgCompleteness /completeness_list.size();
-        removeWeakFeatures(feature_list, completeness_list, Math.max(avgCompleteness, 40));
-        removeIncompleteArticles(article_list, feature_list);
-        flushArticleFeatureList(article_list, manual_feature_list);
+        System.out.println("removeWeakFeatures");
+        //removeWeakFeatures(manual_feature_list, completeness_list, Math.max(avgCompleteness, 0));
+        System.out.println("removeIncompleteArticles");
+        //removeIncompleteArticles(article_list, feature_list);
+        flushArticleFeatureList(new_article_list, manual_feature_list);
 
         try {
-            writeArticleFeatureCSV(article_list, manual_feature_list, feature_data_path);
+            writeArticleFeatureCSV(new_article_list, manual_feature_list, feature_data_path);
         } catch (IOException e){
             e.printStackTrace();
         }
 
-        System.out.println(article_list.size() + " articles");
-        for(int i = 0; i < feature_list.size(); i++){
-            System.out.println(feature_list.get(i) + "\t" + Float.toString(completeness_list.get(i)) + "%");
+        System.out.println();
+        System.out.println(new_article_list.size() + " articles");
+        for(int i = 0; i < manual_feature_list.size(); i++){
+            //System.out.println(manual_feature_list.get(i) + "\t" + Float.toString(completeness_list.get(i)) + "%");
         }
     }
 
     public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, String outputPath) throws IOException{
-        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "manual_articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
+        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
         String lineBuffer;
 
         for(int i = 0; i < article_list.size(); i++){
@@ -86,6 +96,11 @@ public class Main {
 
     public static void flushArticleFeatureList(ArrayList<Article> article_list, ArrayList<String> feature_list){
         for(int i = 0; i < article_list.size(); i++){
+            if(article_list.get(i).getPrice().size() == 0){
+                article_list.remove(i);
+                i--;
+                continue;
+            }
             for(int j = 0; j < feature_list.size(); j++){
                 for(int k = 0; k < article_list.get(i).getFeatures().size(); k++){
                     if(article_list.get(i).getFeatures().get(k).getName().equals(feature_list.get(j))){
@@ -103,6 +118,34 @@ public class Main {
         }
     }
 
+    public static ArrayList<Article> findCompleteArticlesForFeatures(ArrayList<Article> article_list, ArrayList<String> features){
+        ArrayList<Article> newArticleList = new ArrayList<>();
+
+        for(int i = 0; i < article_list.size(); i++){
+            Article currentArticle = article_list.get(i);
+            boolean isReallyComplete = true;
+            for(int j = 0; j < features.size(); j++){
+                String currentSetFeature = features.get(j);
+                boolean isComplete = false;
+                for(int k = 0; k < currentArticle.getFeatures().size(); k++){
+                    Feature currentIsFeature = currentArticle.getFeatures().get(k);
+                    if(currentIsFeature.getName().equals(currentSetFeature)){
+                        isComplete = true;
+                        break;
+                    }
+                }
+                if(!isComplete){
+                    isReallyComplete = false;
+                    break;
+                }
+            }
+            if(isReallyComplete)
+                newArticleList.add(currentArticle);
+        }
+
+        return newArticleList;
+    }
+
     public static void removeWeakFeatures(ArrayList<String> feature_List, ArrayList<Float> completeness_list, float avgCompleteness){
         for(int i = 0; i < feature_List.size(); i++){
             if(completeness_list.get(i) < avgCompleteness){
@@ -112,6 +155,23 @@ public class Main {
             }
         }
     }
+
+    public static void collectPriceData(String price_data_file, ArrayList<Article> article_list) throws IOException{
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(price_data_file), "Cp1252"), '\t', '\"', 1);
+        String[] lineBuffer;
+
+        while((lineBuffer = reader.readNext()) != null) {
+            for(int i = 0; i < article_list.size(); i++){
+                if(article_list.get(i).equals(lineBuffer[1])){
+                    article_list.get(i).addPrice(Float.parseFloat(lineBuffer[2]));
+                }
+            }
+        }
+
+        for(int i = 0; i < article_list.size(); i++){
+            article_list.get(i).calculateAvgPrice();
+        }
+     }
 
     public static void collectTabletArticles(String tablet_article_keywords_file, ArrayList<Article> article_list) throws IOException{
         String[] lineBuffer;

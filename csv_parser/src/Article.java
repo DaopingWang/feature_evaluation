@@ -7,10 +7,13 @@ public class Article {
 
     private String articleID;
     private ArrayList<Feature> features;
+    private ArrayList<Float> price;
+    private float avgPrice;
 
     public Article(String articleID){
         this.articleID = articleID;
         this.features = new ArrayList<>();
+        this.price = new ArrayList<>();
     }
 
     public void addFeature(String featureName, String featureValue){
@@ -44,6 +47,32 @@ public class Article {
     }
 
     public int getNumFeatures(){
-        return features.size();
+        return this.features.size();
+    }
+
+    public ArrayList<Float> getPrice(){ return this.price; }
+
+    public void addPrice(float price) {
+        this.price.add(price);
+    }
+
+    public float getAvgPrice(){
+        return this.avgPrice;
+    }
+
+    public void calculateAvgPrice(){
+        this.avgPrice = 0;
+        for(int i = 0; i < this.price.size(); i++){
+            avgPrice += this.price.get(i);
+        }
+        avgPrice = avgPrice / this.price.size();
+    }
+
+    @Override public boolean equals(Object o){
+        if(o instanceof Article)
+            return ((Article) o).getArticleID().equals(this.getArticleID());
+        else if(o instanceof String)
+            return o.equals(this.getArticleID());
+        return false;
     }
 }
