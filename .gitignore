@@ -65,7 +65,8 @@ CMakeLists.txt.user
 ## Plugin-specific files:
 
 # IntelliJ
-/*/out/
+/out/
+/csv_parser/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
