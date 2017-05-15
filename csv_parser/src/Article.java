@@ -9,11 +9,21 @@ public class Article {
     private ArrayList<Feature> features;
     private ArrayList<Float> price;
     private float avgPrice;
+    private String brand;
 
     public Article(String articleID){
         this.articleID = articleID;
         this.features = new ArrayList<>();
         this.price = new ArrayList<>();
+        this.brand = "unknown";
+    }
+
+    public String getBrand(){
+        return brand;
+    }
+
+    public void setBrand(String brand){
+        this.brand = brand;
     }
 
     public void addFeature(String featureName, String featureValue){

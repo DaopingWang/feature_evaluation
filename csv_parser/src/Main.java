@@ -16,6 +16,7 @@ public class Main {
         ArrayList<String> feature_list = new ArrayList<>();
         ArrayList<Float> completeness_list = new ArrayList<>();
         ArrayList<String> manual_feature_list = new ArrayList<>();
+        ArrayList<String[]> baseData = new ArrayList<>();
 
         tablet_keywords.add("Tablet");
         tablet_keywords.add("Tablet PC");
@@ -37,6 +38,7 @@ public class Main {
         String tablet_article_keywords_file = feature_data_path + "tablets_article_mercateo_keywords.dat";
         String article_feature_value_file = feature_data_path + "tablets_article_feature_value.dat";
         String price_data_file = feature_data_path + "tablets_article_price_data.dat";
+        String base_data_file = feature_data_path + "tablets_article_base_data.dat";
 
         try {
             System.out.println("collectTableArticles");
@@ -51,19 +53,27 @@ public class Main {
 
         ArrayList<Article> new_article_list = findCompleteArticlesForFeatures(article_list, manual_feature_list);
 
+        try {
+            System.out.println("collectBaseData");
+            collectBaseData(baseData, new_article_list, base_data_file);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
         //findCompleteFeatures(article_list, feature_list);
         System.out.println("calculateFeatureCompleteness");
         float avgCompleteness = 0;
-        for(int i = 0; i < manual_feature_list.size(); i++){
-            float buf = calculateFeatureCompleteness(article_list, manual_feature_list.get(i));
+        for(int i = 0; i < feature_list.size(); i++){
+            float buf = calculateFeatureCompleteness(article_list, feature_list.get(i));
             completeness_list.add(buf);
             avgCompleteness += buf;
         }
         avgCompleteness = avgCompleteness /completeness_list.size();
         System.out.println("removeWeakFeatures");
-        //removeWeakFeatures(manual_feature_list, completeness_list, Math.max(avgCompleteness, 0));
+        //removeWeakFeatures(feature_list, completeness_list, Math.min(avgCompleteness, 0));
         System.out.println("removeIncompleteArticles");
         //removeIncompleteArticles(article_list, feature_list);
+        System.out.println("flushing");
         flushArticleFeatureList(new_article_list, manual_feature_list);
 
         try {
@@ -74,6 +84,9 @@ public class Main {
 
         System.out.println();
         System.out.println(new_article_list.size() + " articles");
+        for(int i = 0; i < baseData.size(); i++){
+            //System.out.println(baseData.get(i)[6] + "\t" + baseData.get(i)[7]);
+        }
         for(int i = 0; i < manual_feature_list.size(); i++){
             //System.out.println(manual_feature_list.get(i) + "\t" + Float.toString(completeness_list.get(i)) + "%");
         }
@@ -85,6 +98,7 @@ public class Main {
 
         for(int i = 0; i < article_list.size(); i++){
             lineBuffer = article_list.get(i).getArticleID();
+            lineBuffer += "\t" + article_list.get(i).getBrand() + "\t" + article_list.get(i).getAvgPrice();
             for(int j = 0; j < feature_list.size(); j++){
                 lineBuffer += "\t" + article_list.get(i).getFeatures().get(j).getName() + "\t" + article_list.get(i).getFeatures().get(j).getValue();
             }
@@ -92,6 +106,22 @@ public class Main {
             writer.writeNext(record);
         }
         writer.close();
+    }
+
+    public static void collectBaseData(ArrayList<String[]> baseData, ArrayList<Article> article_list, String baseFilePath) throws IOException{
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(baseFilePath), "Cp1252"), '\t', '\"', 0);
+        String[] lineBuffer;
+        lineBuffer = reader.readNext();
+        baseData.add(lineBuffer);
+        while ((lineBuffer = reader.readNext()) != null){
+            for(int i = 0; i < article_list.size(); i++){
+                if(article_list.get(i).getArticleID().equals(lineBuffer[1])){
+                    baseData.add(lineBuffer);
+                    article_list.get(i).setBrand(lineBuffer[7]);
+                    break;
+                }
+            }
+        }
     }
 
     public static void flushArticleFeatureList(ArrayList<Article> article_list, ArrayList<String> feature_list){
