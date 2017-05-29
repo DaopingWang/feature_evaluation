@@ -30,7 +30,12 @@ public class Main {
         manual_feature_list.add("Arbeitsspeicher");
         manual_feature_list.add("CPU-Taktfrequenz");
         manual_feature_list.add("Bilddiagonale");
+        manual_feature_list.add("AuflÃ¶sung");
         //manual_feature_list.add("Festplatte");
+        //manual_feature_list.add("AkkukapazitÃ¤t");
+        //manual_feature_list.add("AuflÃ¶sung Hauptkamera");
+        //manual_feature_list.add("SSD-SpeicherkapazitÃ¤t");
+        //manual_feature_list.add("Grafik-Controller-Serie");
 
 
 
@@ -51,7 +56,10 @@ public class Main {
             e.printStackTrace();
         }
 
-        ArrayList<Article> new_article_list = findCompleteArticlesForFeatures(article_list, manual_feature_list);
+        System.out.println(article_list.size());
+
+        //ArrayList<Article> new_article_list = findCompleteArticlesForFeatures(article_list, manual_feature_list);
+        ArrayList<Article> new_article_list = findArticlesForFeatures(article_list, manual_feature_list, 6);
 
         try {
             System.out.println("collectBaseData");
@@ -93,14 +101,19 @@ public class Main {
     }
 
     public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, String outputPath) throws IOException{
-        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
-        String lineBuffer;
+        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "1805_articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
+        String lineBuffer = "article_id" + "\t" + "brand" + "\t" + "avg_price";
+        for(int i = 0; i < feature_list.size(); i++){
+            lineBuffer += "\t" + feature_list.get(i);
+        }
+        String[] rec = lineBuffer.split("\t");
+        writer.writeNext(rec);
 
-        for(int i = 0; i < article_list.size(); i++){
+        for(int i = 1; i < article_list.size(); i++){
             lineBuffer = article_list.get(i).getArticleID();
             lineBuffer += "\t" + article_list.get(i).getBrand() + "\t" + article_list.get(i).getAvgPrice();
             for(int j = 0; j < feature_list.size(); j++){
-                lineBuffer += "\t" + article_list.get(i).getFeatures().get(j).getName() + "\t" + article_list.get(i).getFeatures().get(j).getValue();
+                lineBuffer += "\t" + article_list.get(i).getFeatures().get(j).getValue();
             }
             String[] record = lineBuffer.split("\t");
             writer.writeNext(record);
@@ -140,7 +153,7 @@ public class Main {
                         break;
                     }
                     if(k == article_list.get(i).getFeatures().size() - 1){
-                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), "TODO"));
+                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), "unknown"));
                         break;
                     }
                 }
@@ -171,6 +184,29 @@ public class Main {
             }
             if(isReallyComplete)
                 newArticleList.add(currentArticle);
+        }
+
+        return newArticleList;
+    }
+
+    public static ArrayList<Article> findArticlesForFeatures(ArrayList<Article> article_list, ArrayList<String> features, int num){
+        ArrayList<Article> newArticleList = new ArrayList<>();
+
+        for(int i = 0; i < article_list.size(); i++){
+            int knownFeatures = 0;
+            Article currentArticle = article_list.get(i);
+            for(int j = 0; j < features.size(); j++){
+                String currentSetFeature = features.get(j);
+                for(int k = 0; k < currentArticle.getFeatures().size(); k++){
+                    Feature currentIsFeature = currentArticle.getFeatures().get(k);
+                    if(currentIsFeature.getName().equals(currentSetFeature)){
+                        knownFeatures++;
+                    }
+                }
+            }
+            if(knownFeatures >= num){
+                newArticleList.add(currentArticle);
+            }
         }
 
         return newArticleList;

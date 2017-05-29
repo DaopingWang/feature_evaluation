@@ -23,7 +23,9 @@ public class Article {
     }
 
     public void setBrand(String brand){
-        this.brand = brand;
+        if(this.brand.equals("unknown")){
+            this.brand = brand;
+        }
     }
 
     public void addFeature(String featureName, String featureValue){

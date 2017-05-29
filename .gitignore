@@ -79,3 +79,8 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# mnist tutorial
+/mnist_tutorial/MNIST/
+/mnist_tutorial/MNIST_data/
+/mnist_tutorial/.idea/
