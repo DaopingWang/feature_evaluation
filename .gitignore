@@ -67,6 +67,7 @@ CMakeLists.txt.user
 # IntelliJ
 /out/
 /csv_parser/out/
+/csv_parser/.idea/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
