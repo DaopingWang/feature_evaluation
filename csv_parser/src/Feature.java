@@ -15,6 +15,11 @@ public class Feature {
         this.value = value;
     }
 
+    public Feature(String name, float nan){
+        this.name = name;
+        this.value = Float.toString(nan);
+    }
+
     public String getName(){
         return name;
     }

@@ -85,3 +85,8 @@ fabric.properties
 /mnist_tutorial/MNIST/
 /mnist_tutorial/MNIST_data/
 /mnist_tutorial/.idea/
+
+# nn_linreg
+/NN_linreg_tf/.idea/
+# /NN_linreg_tf/tablets_training.csv
+# /NN_linreg_tf/tablets_testing.csv

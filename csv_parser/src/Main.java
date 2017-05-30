@@ -32,10 +32,10 @@ public class Main {
         manual_feature_list.add("Bilddiagonale");
         manual_feature_list.add("AuflÃ¶sung");
         //manual_feature_list.add("Festplatte");
-        //manual_feature_list.add("AkkukapazitÃ¤t");
-        //manual_feature_list.add("AuflÃ¶sung Hauptkamera");
+        manual_feature_list.add("AkkukapazitÃ¤t");
+        manual_feature_list.add("AuflÃ¶sung Hauptkamera");
         //manual_feature_list.add("SSD-SpeicherkapazitÃ¤t");
-        //manual_feature_list.add("Grafik-Controller-Serie");
+        manual_feature_list.add("Grafik-Controller-Serie");
 
 
 
@@ -101,20 +101,22 @@ public class Main {
     }
 
     public static void writeArticleFeatureCSV(ArrayList<Article> article_list, ArrayList<String> feature_list, String outputPath) throws IOException{
-        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "1805_articles_features_table.csv"), "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER);
-        String lineBuffer = "article_id" + "\t" + "brand" + "\t" + "avg_price";
+        CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(outputPath + "tablets_training.csv"), "Cp1252"), ',', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.NO_ESCAPE_CHARACTER);
+        String lineBuffer = "article_id" + "," + "brand";
         for(int i = 0; i < feature_list.size(); i++){
-            lineBuffer += "\t" + feature_list.get(i);
+            lineBuffer += "," + feature_list.get(i);
         }
-        String[] rec = lineBuffer.split("\t");
+        lineBuffer += "," + "avg_price";
+        String[] rec = lineBuffer.split(",");
         writer.writeNext(rec);
 
         for(int i = 1; i < article_list.size(); i++){
-            lineBuffer = article_list.get(i).getArticleID();
-            lineBuffer += "\t" + article_list.get(i).getBrand() + "\t" + article_list.get(i).getAvgPrice();
+            //lineBuffer = article_list.get(i).getArticleID();
+            lineBuffer = article_list.get(i).getArticleID() + "," + article_list.get(i).getBrand();
             for(int j = 0; j < feature_list.size(); j++){
                 lineBuffer += "\t" + article_list.get(i).getFeatures().get(j).getValue();
             }
+            lineBuffer += "\t" + article_list.get(i).getAvgPrice();
             String[] record = lineBuffer.split("\t");
             writer.writeNext(record);
         }
@@ -153,7 +155,7 @@ public class Main {
                         break;
                     }
                     if(k == article_list.get(i).getFeatures().size() - 1){
-                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), "unknown"));
+                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), Float.NaN));
                         break;
                     }
                 }
