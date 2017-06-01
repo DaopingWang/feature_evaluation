@@ -1,22 +1,26 @@
-id,Speicherkapazität,Arbeitsspeicher,CPU-Taktfrequenz,Auflösung Hauptkamera,avg_price,brand_Acer,brand_Archos,brand_Asus,brand_Dell,brand_Getac,brand_HP,brand_Huawei Technologies,brand_Infocus,brand_Lenovo,brand_Medion,brand_Microsoft,brand_Odys,brand_Port Designs,brand_Samsung,brand_Sony,brand_TrekStor,brand_Verico,brand_Wortmann,brand_Xoro,Betriebssystem_Android,Betriebssystem_Chrome OS,Betriebssystem_Windows 10 Home,Betriebssystem_Windows 10 Home 32-Bit,Betriebssystem_Windows 10 Home 64-Bit,Betriebssystem_Windows 10 Professional,Betriebssystem_Windows 10 Professional 32-Bit,Betriebssystem_Windows 10 Professional 64-Bit,Betriebssystem_Windows 7 Professional,Betriebssystem_Windows 8.1,Betriebssystem_Windows 8.1 32-Bit,Betriebssystem_Windows 8.1 Pro 32-Bit,Betriebssystem_Windows 8.1 Pro 64-Bit,"Bilddiagonale_18 cm (7"")","Bilddiagonale_20 cm (8"")","Bilddiagonale_25 cm (10"")","Bilddiagonale_28 cm (11"")","Bilddiagonale_30 cm (12"")","Bilddiagonale_33 cm (13"")","Bilddiagonale_36 cm (14"")","Bilddiagonale_38 cm (15"")",Auflösung_1024x600,Auflösung_1280x800,Auflösung_1366x768,Auflösung_1900x1200,Auflösung_1920x1080,Auflösung_1920x1200,Auflösung_2048x1536,Auflösung_2160x1440,Auflösung_2560x1440,Auflösung_2736x1824,Auflösung_2880x1620,Auflösung_2880x1920,Auflösung_3000x2000,Auflösung_3200x1800,Auflösung_8,Akkukapazität_4000-4999 mAh,Akkukapazität_6000-6999 mAh,Akkukapazität_8000-8999 mAh,Grafik-Controller-Serie_AMD Radeon R5,Grafik-Controller-Serie_Intel HD Graphics 400,Grafik-Controller-Serie_Intel HD Graphics 500,Grafik-Controller-Serie_Intel HD Graphics 5000,Grafik-Controller-Serie_Intel HD Graphics 600,Grafik-Controller-Serie_Intel HD Graphics 800,Grafik-Controller-Serie_Intel Iris Graphics 500,Grafik-Controller-Serie_NVIDIA GeForce GTX 900
-160,256,8.0,2.6,,2432.4316,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
-161,256,8.0,2.6,,2430.6084,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
-162,32,2.0,,,179.11706999999998,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-163,32,2.0,1.4,,230.90708999999998,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-164,32,2.0,1.4,,292.28098,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-165,64,4.0,1.4,,322.38666,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-166,64,4.0,1.4,,300.05457,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-167,128,4.0,1.4,,348.2639,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-168,128,4.0,1.4,,316.15945,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-169,32,2.0,1.3,,561.9071700000001,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-170,128,2.0,1.4,,255.2064,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-171,256,,2.5,,1265.0076,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
-172,64,2.0,1.3,,446.41832999999997,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-173,64,2.0,1.4,,241.54834,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-174,128,2.0,1.4,,374.57333,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-175,128,2.0,1.4,,285.91864,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-176,128,2.0,1.4,,205.76917,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-177,128,4.0,2.2,,594.78174,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-178,32,2.0,1.3,,178.59747,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179,32,3.0,1.9,13.0,370.80997,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-180,32,,2.0,8.1,564.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+article_id,brand,Betriebssystem,Speicherkapazität,Arbeitsspeicher,CPU-Taktfrequenz,Bilddiagonale,Auflösung,Akkukapazität,Auflösung Hauptkamera,Grafik-Controller-Serie,avg_price
+2782477,Microsoft,Windows 10 Professional 64-Bit,256,8,2.4,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,2224.3035
+2782724,Microsoft,Windows 10 Professional 64-Bit,256,8,2.4,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,2385.8616
+2782459,Microsoft,Windows 10 Professional 64-Bit,512,16,2.6,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,3060.1067
+2782722,Microsoft,Windows 10 Professional 64-Bit,512,16,2.6,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,3235.1965
+2782460,Microsoft,Windows 10 Professional 64-Bit,256,8,2.6,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,2432.4316
+2782723,Microsoft,Windows 10 Professional 64-Bit,256,8,2.6,33 cm (13"),3000x2000,NaN,NaN,NVIDIA GeForce GTX 900,2430.6084
+3035521,Odys,Windows 10 Home 32-Bit,32,2,NaN,28 cm (11"),1366x768,NaN,NaN,Intel HD Graphics 400,179.11707
+3035520,Odys,Windows 10 Home,32,2,1.4,NaN,1366x768,NaN,NaN,Intel HD Graphics 400,230.90709
+3373686,HP,Windows 10 Professional 64-Bit,32,2,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,292.28098
+3033561,HP,Windows 10 Professional 64-Bit,64,4,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,322.38666
+3033562,HP,Windows 10 Home 64-Bit,64,4,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,300.05457
+3033563,HP,Windows 10 Professional 64-Bit,128,4,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,348.2639
+3033564,HP,Windows 10 Home,128,4,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,316.15945
+2094103,Asus,Windows 8.1 Pro 32-Bit,32,2,1.3,25 cm (10"),1366x768,NaN,NaN,NaN,561.90717
+2903745,Asus,Windows 10 Home 64-Bit,128,2,1.4,25 cm (10"),1280x800,NaN,NaN,NaN,255.2064
+3323429,Lenovo,Windows 10 Home,256,NaN,2.5,33 cm (13"),3200x1800,NaN,NaN,Intel HD Graphics 500,1265.0076
+2435907,Asus,Windows 8.1,64,2,1.3,25 cm (10"),1366x768,NaN,NaN,NaN,446.41833
+3035627,Asus,Windows 10 Home 64-Bit,64,2,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,241.54834
+2903750,Asus,Windows 10 Home 64-Bit,128,2,1.4,25 cm (10"),1280x800,NaN,NaN,NaN,374.57333
+3337592,Asus,Windows 10 Home 64-Bit,128,2,1.4,25 cm (10"),1280x800,NaN,NaN,Intel HD Graphics 400,285.91864
+2987650,Verico,Windows 10 Home 32-Bit,128,2,1.4,25 cm (10"),1280x800,NaN,NaN,NaN,205.76917
+2777226,Samsung,Windows 10 Professional,128,4,2.2,30 cm (12"),2160x1440,NaN,NaN,Intel HD Graphics 500,594.78174
+2987637,Medion,Windows 10 Home 32-Bit,32,2,1.3,25 cm (10"),1280x800,NaN,NaN,NaN,178.59747
+1391836-BP,Huawei Technologies,Android,32,3,1.9,18 cm (7"),NaN,NaN,13,NaN,370.80997
+0004825721-00000001,Sony,Android,32,NaN,2,25 cm (10"),NaN,6000-6999 mAh,8.1,NaN,564.75
