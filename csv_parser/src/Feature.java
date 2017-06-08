@@ -17,7 +17,9 @@ public class Feature {
 
     public Feature(String name, float nan){
         this.name = name;
-        this.value = Float.toString(nan);
+        //this.value = Float.toString(nan);
+        if(nan == Float.NaN) this.value = "unknown";
+        if(nan == 666) this.value = Float.toString(Float.NaN);
     }
 
     public String getName(){

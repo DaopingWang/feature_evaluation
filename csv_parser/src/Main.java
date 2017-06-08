@@ -8,6 +8,8 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
+    static ArrayList<String> categoricalFeatureList = new ArrayList<>();
+
 
     static ArrayList<String> tablet_keywords = new ArrayList<>();
 
@@ -37,6 +39,12 @@ public class Main {
         //manual_feature_list.add("SSD-SpeicherkapazitÃ¤t");
         manual_feature_list.add("Grafik-Controller-Serie");
 
+        categoricalFeatureList.add("Betriebssystem");
+        categoricalFeatureList.add("Bilddiagonale");
+        categoricalFeatureList.add("AuflÃ¶sung");
+        categoricalFeatureList.add("AkkukapazitÃ¤t");
+        categoricalFeatureList.add("Grafik-Controller-Serie");
+        categoricalFeatureList.add("brand");
 
 
         String feature_data_path = "C:/Users/wang.daoping/Documents/feature data/";
@@ -155,7 +163,11 @@ public class Main {
                         break;
                     }
                     if(k == article_list.get(i).getFeatures().size() - 1){
-                        article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), Float.NaN));
+                        if(categoricalFeatureList.contains(feature_list.get(j))){
+                            article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), Float.NaN));
+                        } else {
+                            article_list.get(i).getFeatures().add(j, new Feature(feature_list.get(j), 666));
+                        }
                         break;
                     }
                 }
