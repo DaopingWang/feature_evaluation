@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Article {
 
     private String articleID;
+    private String setID;
     private ArrayList<Feature> features;
     private ArrayList<Float> price;
     private float avgPrice;
@@ -20,6 +21,14 @@ public class Article {
 
     public String getBrand(){
         return brand;
+    }
+
+    public void setSetID(String setID) {
+        this.setID = setID;
+    }
+
+    public String getSetID(){
+        return this.setID;
     }
 
     public void setBrand(String brand){

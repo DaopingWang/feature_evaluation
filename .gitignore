@@ -68,6 +68,8 @@ CMakeLists.txt.user
 /out/
 /csv_parser/out/
 /csv_parser/.idea/
+/new_csv_parser/out/
+/new_csv_parser/.idea/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -88,5 +90,5 @@ fabric.properties
 
 # nn_linreg
 /NN_linreg_tf/.idea/
-# /NN_linreg_tf/tablets_training.csv
-# /NN_linreg_tf/tablets_testing.csv
+/NN_linreg_tf/tablets_training.csv
+/NN_linreg_tf/tablets_testing.csv

@@ -3,13 +3,19 @@
  */
 
 import com.opencsv.*;
+import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
+    class ArticleWrapper {
+        public ArticleWrapper(  )
+    }
     static ArrayList<String> categoricalFeatureList = new ArrayList<>();
-
+    static ArrayList<String> tabletSetIDList = new ArrayList<>();
+    static HashMap<String, String> setIDList = new HashMap<>();
 
     static ArrayList<String> tablet_keywords = new ArrayList<>();
 
@@ -52,6 +58,8 @@ public class Main {
         String article_feature_value_file = feature_data_path + "tablets_article_feature_value.dat";
         String price_data_file = feature_data_path + "tablets_article_price_data.dat";
         String base_data_file = feature_data_path + "tablets_article_base_data.dat";
+
+        String dublicate_relation_file = feature_data_path + "tablets_article_duplicate_relation.dat";
 
         try {
             System.out.println("collectTableArticles");
@@ -205,19 +213,32 @@ public class Main {
 
     public static ArrayList<Article> findArticlesForFeatures(ArrayList<Article> article_list, ArrayList<String> features, int num){
         ArrayList<Article> newArticleList = new ArrayList<>();
+        String previousID = "start";
+        int knownFeatures = 0;
+        ArrayList<Article> currentArticleSet = new ArrayList<>();
 
         for(int i = 0; i < article_list.size(); i++){
-            int knownFeatures = 0;
             Article currentArticle = article_list.get(i);
-            for(int j = 0; j < features.size(); j++){
-                String currentSetFeature = features.get(j);
-                for(int k = 0; k < currentArticle.getFeatures().size(); k++){
-                    Feature currentIsFeature = currentArticle.getFeatures().get(k);
-                    if(currentIsFeature.getName().equals(currentSetFeature)){
-                        knownFeatures++;
+            String currentSetID = currentArticle.getSetID();
+
+            if(!currentSetID.equals(previousID)){
+                previousID = currentSetID;
+                knownFeatures = 0;
+                currentArticleSet.add(currentArticle);
+            } else {
+                for(int j = 0; j < features.size(); j++){
+                    String currentSetFeature = features.get(j);
+                    for(int k = 0; k < currentArticle.getFeatures().size(); k++){
+                        Feature currentIsFeature = currentArticle.getFeatures().get(k);
+                        if(currentIsFeature.getName().equals(currentSetFeature)){
+                            knownFeatures++;
+                        }
                     }
                 }
             }
+
+
+
             if(knownFeatures >= num){
                 newArticleList.add(currentArticle);
             }
@@ -253,13 +274,22 @@ public class Main {
         }
      }
 
+    public static void collectSetID(String tabletsArticleDupRelFilepath) throws IOException{
+        String[] lineBuffer;
+
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(tabletsArticleDupRelFilepath), "Cp1252"), '\t', '\"', 1);
+        while((lineBuffer = reader.readNext()) != null){
+            setIDList.put(lineBuffer[1], lineBuffer[2]);
+        }
+    }
+
     public static void collectTabletArticles(String tablet_article_keywords_file, ArrayList<Article> article_list) throws IOException{
         String[] lineBuffer;
 
         CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(tablet_article_keywords_file), "Cp1252"), '\t', '\"', 1);
         while((lineBuffer = reader.readNext()) != null) {
-            if(isTablet(lineBuffer[2])){
-                pushList(lineBuffer[1], article_list);
+            if(isTablet(lineBuffer[2], setIDList.get(lineBuffer[1]))){
+                pushList(lineBuffer[1], setIDList.get(lineBuffer[1]), article_list);
             }
         }
     }
@@ -355,7 +385,7 @@ public class Main {
         }
     }
 
-    public static boolean pushList(String article_id, ArrayList<Article> list){
+    public static boolean pushList(String article_id, String setID, ArrayList<Article> list){
         ArrayList<String> importedArticles = new ArrayList<>();
         for(int i = 0; i < list.size(); i++){
             importedArticles.add(list.get(i).getArticleID());
@@ -363,12 +393,16 @@ public class Main {
         if(importedArticles.contains(article_id)) return true;
         else {
             Article article = new Article(article_id);
+            article.setSetID(setID);
+            if(!tabletSetIDList.contains(setID)){
+                tabletSetIDList.add(setID);
+            }
             list.add(article);
         }
         return true;
     }
 
-    public static boolean isTablet(String keyword){
-        return tablet_keywords.contains(keyword);
+    public static boolean isTablet(String keyword, String setID){
+        return tablet_keywords.contains(keyword) || tabletSetIDList.contains(setID);
     }
 }
