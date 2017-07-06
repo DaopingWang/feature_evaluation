@@ -1,0 +1,690 @@
+set_id,price,brand,Betriebssystem,Speicherkapazitaet,Arbeitsspeicher,CPU-Taktfrequenz,Bilddiagonale,Aufloesung,Festplatte,Akkukapazitaet,Aufloesung Hauptkamera,SSD-Speicherkapazitaet,Grafik-Controller-Serie
+14205675,875.70996,Lenovo,Windows 10 Home,256,8,2.2,33 cm (13"),3200x1800,256,unknown,unknown,256,Intel Iris Graphics 500
+4257886,1097.8925,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5661871,531.7822,Asus,Windows 10 Home,128,4,2.2,33 cm (13"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 500
+2526903,794.9191,Apple,unknown,256,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+16386580,377.08386,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14116579,6939.1055,Lenovo,unknown,unknown,unknown,1.1,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+1056534,154.26166,Medion,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11494878,769.2333,Apple,unknown,32,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+1745853,908.1333,Lenovo,Windows 10 Professional,256,8,2.3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+7302488,2415.8716,Samsung,Android,16,unknown,1.2,18 cm (7"),unknown,unknown,6000-6999 mAh,5,unknown,unknown
+3113348,1185.049,HP,Windows 8.1 Pro 64-Bit,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4141219,3731.3508,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+9542623,11977.84,Apple,MacOS X,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+12336101,104.10934,Acer,Windows 10 Home,32,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+3585983,169.12172,Acer,Android,16,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1596532,1115.1483,Microsoft,Windows 10 Professional,256,8,2.4,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+7805427,2220.0566,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1254885,480.91748,Apple,unknown,64,2,1.5,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13732938,1363.2101,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15875134,250.97232,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9001313,6222.267,Huawei Technologies,Android,32,3,2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+13602877,376.1554,Asus,Android,64,4,2.1,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11259137,457.81494,Apple,Apple iOS,16,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+7813045,197.46,Archos,unknown,8,1,1,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2154416,568.47815,Apple,Apple iOS,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13820370,203.4004,Bluechip Computer,Windows 10 Home,64,2,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4694508,86.9379,Odys,Android,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+8086099,8968.817,Apple,unknown,128,2,1.5,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2936862,45697.137,Dell,Windows 10 Professional,512,8,1.2,30 cm (12"),1920x1080,512,unknown,unknown,512,Intel HD Graphics 500
+3824424,1777.9937,Panasonic,Windows 10 Professional,128,4,1.1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+743854,1276.6732,Samsung,Android,8,1.5,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1741481,5076.8003,HP,unknown,128,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5648885,1140.686,HP,Windows 8.1,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4208860,279.28,Samsung,Android,16,unknown,1.6,20 cm (8"),unknown,unknown,4000-4999 mAh,1,unknown,unknown
+3436708,796.75,Samsung,Windows 10 Professional,unknown,unknown,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+5062137,371.415,Huawei Technologies,Android,16,2,1.5,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2681114,6759.3086,Apple,Apple iOS,128,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15422942,480.35654,HP,Windows 10 Professional,32,2,1.3,25 cm (10"),1280x800,32,unknown,unknown,32,unknown
+5747808,279.29,Samsung,Android,16,unknown,1.5,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+6080631,1111.6538,Apple,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+11846034,1073.206,Apple,unknown,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+12291927,1056.1298,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10544138,3289.1353,Xplore Technologies,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13191172,667.3697,Asus,Windows 10 Home,256,8,2.5,33 cm (13"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 600
+4604146,650.49664,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12685835,1108.4463,Microsoft,Windows 10 Professional,256,8,2.4,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+15039294,4464.103,Dell,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+926141,164.04144,Asus,Android,16,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4236981,213.60051,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10443433,1359.2233,Microsoft,unknown,256,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+10627890,138.02245,BQ,Android,16,2,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+15401136,442.2889,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6688726,232.33081,Lenovo,unknown,64,4,1.9,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9367442,661.73,Apple,Apple iOS,128,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10443427,1877.2849,Microsoft,unknown,512,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+13217415,4729.614,Dell,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13545742,644.5533,Apple,Apple iOS,128,2,1.5,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9602898,223.81633,Huawei Technologies,Android,16,2,1.2,18 cm (7"),unknown,unknown,4000-4999 mAh,13,unknown,unknown
+3886738,704.86005,Lenovo,Windows 10 Professional,128,4,2.3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+1186661,686.75964,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1701462,18094.316,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12096387,556.1773,Apple,Apple iOS,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1619708,416.38,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6471490,414.68045,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+12447098,2689.3074,Getac,unknown,128,4,unknown,25 cm (10"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 5000
+3213507,663.67,Apple,Windows XP Professional,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1648257,1505.772,Lenovo,Android,unknown,unknown,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14567837,1877.1317,Microsoft,unknown,unknown,8,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5369484,188.795,Samsung,Android,8,1.5,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12423909,481.8602,Apple,unknown,16,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+932839,1170.3943,Lenovo,Windows 10 Professional,256,8,1.1,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+15204196,448.4594,Apple,unknown,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+15578712,1096.0786,Apple,unknown,16,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1523560,291.94827,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+8504936,701.32135,Apple,unknown,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+15681772,594.13574,HP,Windows 10 Home,unknown,8,2.5,33 cm (13"),1366x768,256,unknown,unknown,256,Intel HD Graphics 600
+15334226,488.47775,Apple,Windows XP Professional,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+7565290,4680.9727,Lenovo,Android,unknown,unknown,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15548095,530.74896,Apple,Apple iOS,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9956931,872.4466,HP,unknown,64,4,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+711452,492.02777,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1391297,93.12892,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9440681,2172.5398,Samsung,Android,unknown,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8604786,221.57568,Huawei Technologies,Android,16,2,1.5,18 cm (7"),unknown,unknown,4000-4999 mAh,13,unknown,unknown
+5591431,166.5166,Lenovo,Android,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2442784,2466.96,Satechi,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4940176,320.74435,Huawei Technologies,Android,16,2,2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+1097092,3077.4702,Xplore Technologies,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12285206,378.0674,Unbekannt,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6012519,11214.72,Colorovo,Android,8,2,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14567894,1189.5344,Microsoft,unknown,256,8,unknown,30 cm (12"),2736x1824,unknown,unknown,unknown,unknown,unknown
+15017052,721.12,Apple,Apple iOS,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10894749,215.1379,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3105774,850.4167,Samsung,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+15541476,571.48706,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+500681,1447.8134,Lenovo,Windows 10 Professional,256,8,2.6,33 cm (13"),3200x1800,256,unknown,unknown,256,Intel HD Graphics 500
+11303781,176.42511,Samsung,Android,8,1.5,2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+7578539,858.0814,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6222826,2230.8184,Microsoft,unknown,unknown,8,unknown,30 cm (12"),unknown,1000,unknown,unknown,unknown,unknown
+4639694,259.87875,Lenovo,Android,32,3,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13287302,1513.3734,Panasonic,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5650312,555.0,Acer,Windows 10 Home 64-Bit,128,4,0.8,28 cm (11"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 5000
+200840,63.923332,Prestigio,Android,unknown,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14941758,1043.3093,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5916292,114.975334,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12020217,2204.4136,Getac,unknown,128,4,unknown,25 cm (10"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 5000
+1344095,1570.0,Microsoft,Windows 10 Professional,256,16,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+14674813,403.55624,Apple,unknown,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1953128,213.86998,Samsung,Android,16,unknown,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13496654,140.15414,Asus,Android,16,1,1.1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10485204,546.7489,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14764797,24751.295,Fujitsu,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14534991,783.54736,Motic,Android,unknown,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12252337,2285.6924,Getac,Windows 10 Professional 64-Bit,128,4,unknown,25 cm (10"),1900x1200,128,unknown,unknown,128,Intel HD Graphics 5000
+3042055,199.83325,Axdia,Windows 10 Home,32,2,1.3,28 cm (11"),1366x768,32,unknown,unknown,32,unknown
+745637,118.073,Asus,Android,16,2,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+973391,719.8253,Apple,unknown,256,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10544112,137.94287,Medion,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10870218,94.96981,TrekStor,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14722956,349.295,Lenovo,Android,32,2,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+151751,70.11643,Denver Instrument,Android,16,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6839836,2218.4136,Apple,Apple iOS,32,2,2.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9801577,2779.2593,Apple,Apple iOS,32,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+9453954,289.35065,Apple,unknown,32,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1350667,238.07794,Lenovo,Android,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12443466,391.69113,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+8669301,358.10178,Apple,Apple iOS,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6567575,95.24249,Archos,Android,16,1,1.3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+516274,782.23663,Dell,unknown,128,4,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12629612,49.66667,Prestigio,Android,4,0.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+15250011,383.58575,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14832534,303.38333,Modecom,Android,4,0.5,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+5690310,1735.7922,Getac,Android,16,1,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14912422,133.64314,Asus,Android,16,2,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12030474,238.04333,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12111688,32.52,Targus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+975167,402.03696,Lenovo,Android,64,4,1.4,25 cm (10"),1920x1200,64,unknown,unknown,64,Intel HD Graphics 400
+13383954,183153.42,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2488173,239.0,Samsung,Android,16,2,1.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+12399791,147.63779,Samsung,Android,8,unknown,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10710409,224.92471,unknown,unknown,32,2,unknown,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+3955771,102.46499,Lenco,Android,8,1,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9765438,124.42224,Acer,Android,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+3069054,334.83,Samsung,Android,32,3,1.9,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1953181,530.9366,Apple,Apple iOS,64,unknown,unknown,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+7960157,3907.638,Apple,Apple iOS,32,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9733866,410.49298,Lenovo,Windows 10 Home,1000,4,2,36 cm (14"),1920x1080,1000,unknown,unknown,unknown,Intel HD Graphics 5000
+12354874,648.0309,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+2021353,646.2934,Acer,Windows 10 Home,128,8,2.3,30 cm (12"),2160x1440,128,unknown,unknown,128,Intel HD Graphics 500
+11502092,2447.6733,Lenovo,Android,unknown,2,1,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+2258291,321.03445,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+13644681,81.55866,Archos,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14497493,731.61334,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+9916829,1452.6902,HP,Windows 8.1 Pro 64-Bit,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9579138,197.85132,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4927941,1231.4834,Lenovo,Windows 10 Professional,256,8,1.1,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+9872800,1417.9178,Umax,unknown,32,2,1.4,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+3958836,344.25888,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+256400,5233.5933,HP,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14456975,544.0156,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9134567,200.4902,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16689135,65.82342,Xoro,Android,8,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14386429,476.68002,Apple,Apple iOS,32,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+15537359,258.91513,Asus,Android,64,2,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16256481,598.0804,Umax,Android,16,16,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14345094,4282.5586,Phoenix Contact,unknown,unknown,unknown,1.9,33 cm (13"),unknown,unknown,unknown,unknown,unknown,unknown
+1073159,832.25995,HP,Windows 8.1 Pro 64-Bit,64,unknown,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3154721,1781.4619,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16022196,826.67004,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+8864992,336.20355,Apple,unknown,16,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3142738,984.37787,Asus,Windows 10 Home,256,16,2.3,30 cm (12"),2880x1620,256,unknown,unknown,256,Intel HD Graphics 500
+15263344,1312.9199,Prestigio,unknown,16,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6439380,1127.9564,Asus,Windows 10 Professional 64-Bit,256,8,2.3,30 cm (12"),2880x1920,256,unknown,unknown,256,Intel HD Graphics 500
+5002524,5998.241,Apple,Apple iOS,32,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3210504,590.17,Apple,Apple iOS,64,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+2068865,4392.94,Lenovo,Android,unknown,2,1.5,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4146101,412.1489,Apple,Windows XP Professional,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14222297,99.33533,Alcatel,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9135869,204.3867,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10443480,2230.915,Microsoft,unknown,unknown,8,unknown,30 cm (12"),unknown,1000,unknown,unknown,unknown,unknown
+10562725,220.65999,Samsung,Android,16,1.5,1.5,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+15763294,3059.4976,Asus,Android,unknown,unknown,unknown,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+12429128,422.54245,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11381397,452.0,HP,Android,16,2,2.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+2144143,494.69897,Lenovo,Windows 10 Home,1000,4,1.7,36 cm (14"),1920x1080,1000,unknown,unknown,unknown,NVIDIA GeForce GTX 900
+8899697,415.01825,Apple,Apple iOS,16,1,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+4434306,620.47034,HP,Windows 10 Home 64-Bit,1000,8,2.5,38 cm (15"),1920x1080,1000,unknown,unknown,unknown,Intel HD Graphics 600
+15799252,133.92656,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+7241841,354.62,Asus,Windows 10 Professional 64-Bit,64,4,1.4,25 cm (10"),1280x800,64,unknown,unknown,64,unknown
+4295253,148.93185,TrekStor,Windows 10 Home,32,2,1.3,25 cm (10"),1280x800,32,unknown,unknown,32,unknown
+5803623,1319.619,Fujitsu,unknown,unknown,unknown,unknown,30 cm (12"),unknown,256,unknown,unknown,256,unknown
+11499645,1044.43,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6829548,153.21999,Samsung,Android,8,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+8490610,78112.664,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+4832372,958.8731,Apple,unknown,32,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15743684,1870.87,Microsoft,Windows 10 Professional 64-Bit,512,16,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+2444554,300.655,Samsung,Android,16,1.5,1.2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+4358167,187.6475,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7883476,2245.8315,Getac,Windows 10 Professional,128,4,0.8,25 cm (10"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 5000
+16292128,80.918,Axdia,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1491518,506.64633,Colormetrics,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14108049,176.05925,BQ,Android,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10443465,2247.6433,Microsoft,unknown,unknown,8,unknown,30 cm (12"),unknown,1000,unknown,unknown,unknown,unknown
+3061983,1695.7471,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3300445,565.03,Samsung,Android,16,unknown,2.3,unknown,unknown,unknown,8000-8999 mAh,8,unknown,unknown
+2741330,550.05,Apple,Apple iOS,64,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+553243,859.1107,Microsoft,Windows 10 Professional,128,4,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+11784000,333.565,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7191095,446.965,Lenovo,Windows 10 Home,128,4,2,36 cm (14"),1366x768,128,unknown,unknown,128,Intel HD Graphics 5000
+12676852,51.70382,Unbekannt,Android,8,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6878559,1037.03,Acer,Windows 10 Home 64-Bit,128,4,0.9,30 cm (12"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 500
+7148264,221.12831,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12370934,1829.7378,Unbekannt,Android,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+5059414,2855.245,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+670793,1512.3052,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9067225,1247.8477,HP,Windows 10 Professional 64-Bit,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+162357,43.577377,Alcatel,Android,4,0.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+7973406,568.92065,Huawei Technologies,unknown,unknown,unknown,unknown,13 cm (5"),unknown,unknown,unknown,unknown,unknown,unknown
+12719629,8247.586,Lenovo,Android,16,2,1,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+9969366,7026.533,Linx,Windows 8.1,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+520326,11422.195,Lenovo,Android,unknown,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4535148,179.35081,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1852330,789.41614,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+14279186,328.51666,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+7274752,258.31628,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3098446,597.0234,Lenovo,Windows 10 Home,256,8,1.2,28 cm (11"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 600
+862337,407.41806,Apple,unknown,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10941614,247.27289,Asus,Windows 10 Home,32,2,1.4,25 cm (10"),1280x800,32,unknown,unknown,32,unknown
+10481714,1218.0289,HP,Windows 10 Home,256,8,2.5,33 cm (13"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 500
+14269742,450.99667,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13246890,1099.9497,Getac,Windows 10 Professional,64,4,1.6,20 cm (8"),1280x800,64,unknown,unknown,64,unknown
+7140317,958.98083,HP,Windows 10 Professional 64-Bit,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13849168,1542.7642,HP,Windows 8 Embedded,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15118639,858.1475,Apple,unknown,256,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+7048799,159.9,TrekStor,Windows 8.1,32,2,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13424994,450.8022,Umax,Android,16,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+4484605,502.52884,Apple,Windows XP Professional,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1528465,260.59933,unknown,unknown,32,2,unknown,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+3258441,872.03754,Apple,Apple iOS,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+3817372,2163.921,MLMP2FD/A,Apple iOS,32,2,2.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14522042,1585.1661,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12226821,87.24564,Lenovo,Android,8,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12338797,100.92614,Odys,Android,16,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15698613,2646.8083,Xplore Technologies,Windows 7 Professional 64-Bit,128,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14264063,419.75052,Apple,Apple iOS,64,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+782642,1356.2767,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12094618,2509.964,Panasonic,Windows 10 Professional,128,4,1.1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12010800,451.31482,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+7329428,270.09668,Samsung,Android,16,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13642892,65.57688,Alcatel,Android,8,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6529344,473.81155,Apple,Apple iOS,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+4727891,151.64879,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+144562,342.5048,Lenovo,Android,32,2,unknown,30 cm (12"),1280x800,32,unknown,unknown,unknown,unknown
+13825193,4555.349,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11376850,1115.1483,Microsoft,Windows 10 Professional 64-Bit,256,8,2.4,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+6795770,1808.6093,Lark,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12323711,408.77576,Samsung,Android,unknown,1.5,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14366860,839.14667,Lenovo,unknown,250,unknown,unknown,5 cm (2"),unknown,unknown,unknown,unknown,unknown,unknown
+6988236,837.2127,Samsung,Windows 10 Professional,128,4,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+12082637,4011.6165,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2616858,81.81243,Huawei Technologies,Android,8,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1718301,60584.953,Microsoft,Windows 10 Professional 64-Bit,256,8,2.4,30 cm (12"),2736x1824,256,unknown,unknown,256,Intel HD Graphics 500
+13489498,1176.15,Lenovo,Windows 8.1 Pro 64-Bit,500,unknown,1.6,30 cm (12"),1920x1080,500,unknown,unknown,16,Intel HD Graphics 4000
+13328377,281.4069,Acer,Android,32,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8386444,549.7092,Apple,Apple iOS,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9607692,627.9274,Unbekannt,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1573062,4132.4995,Samsung,Android,16,2,1.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+16456961,934.73,Fujitsu,Windows 8.1,64,4,1.6,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+12095970,862.37384,Fujitsu,Windows 10 Professional,256,8,2.4,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+7420115,1048.3334,Asus,Windows 10 Home,256,8,1.2,30 cm (12"),2880x1920,256,unknown,unknown,256,Intel HD Graphics 600
+3615966,1087.6204,Asus,Windows 10 Home,16,16,2.7,33 cm (13"),1920x1080,16,unknown,unknown,512,Intel HD Graphics 600
+12572366,630.53314,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+5748309,324.06555,ProDVX,Android,8,1,1.6,36 cm (14"),unknown,unknown,unknown,unknown,unknown,unknown
+8517327,352.2589,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+282768,3359.5493,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6366642,664.2182,HP,Android,32,2,2.3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+14904858,16646.809,Microsoft,Windows 10 Professional 64-Bit,128,4,0.9,30 cm (12"),2736x1824,128,unknown,unknown,128,Intel HD Graphics 500
+8134727,1306.8257,HP,Windows 10 Home 64-Bit,256,8,2.2,33 cm (13"),2560x1440,256,unknown,unknown,256,Intel Iris Graphics 500
+5978241,196.64668,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3986926,4389.4756,Phoenix,Windows 7 Ultimate 64-Bit,unknown,unknown,1.9,33 cm (13"),unknown,unknown,unknown,unknown,unknown,unknown
+4362281,137.99312,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16584981,2943.9712,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12652027,288.02826,Apple,Apple iOS,32,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+15466537,74.93109,i.onik,Android,8,1,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13698492,3217.398,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1179448,662.5017,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5609210,127.039986,Hannspree,Android,8,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12680976,789.07227,Lenovo,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9735680,161.35966,Lenovo,Android,16,2,1,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+6702346,2964.2527,Apple,MacOS X,128,2,2.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+5508631,33527.78,Lenovo,Windows 10 Professional,256,8,1.2,30 cm (12"),2160x1440,unknown,unknown,unknown,unknown,unknown
+12282985,481.07632,Apple,Apple iOS,128,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6478131,88.017235,HP,Android,8,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+71349,1324.555,Getac,Android,16,1,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+8744194,2250.5044,Microsoft,Windows 10 Professional 64-Bit,256,8,2.6,33 cm (13"),3000x2000,256,unknown,unknown,256,NVIDIA GeForce GTX 900
+13364868,5883.7974,Xplore Technologies,Windows 8.1 Pro 64-Bit,256,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16361310,442.04996,HTC,Android,16,1,1.5,18 cm (7"),unknown,unknown,4000-4999 mAh,1,unknown,unknown
+13834925,505.6587,Apple,Apple iOS,16,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6527571,380.68112,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7223135,6272.8096,Microsoft,Windows 10 Professional 64-Bit,256,8,2.2,8 cm (3"),unknown,unknown,unknown,unknown,unknown,unknown
+10620482,2855.245,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11070267,994.8361,Samsung,Windows 10 Professional,128,4,2.2,30 cm (12"),2160x1440,128,unknown,unknown,unknown,Intel HD Graphics 500
+9174584,1916.9796,Panasonic,Windows 10 Professional,128,4,1.4,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1032606,375.3522,Vision,Android,8,0.5,1.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9639286,1076.7155,Microsoft,Windows 10 Professional,256,8,2.4,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+9526691,147.95,Asus,Android,16,2,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+9441064,7081.033,Samsung,Android,16,unknown,1.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9546282,782.2058,Apple,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+2263614,151.79285,Thomson,Windows 8.1,32,1,1.3,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3123648,333.9511,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+12926858,123.175995,Samsung,Android,8,1,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14052802,1542.2284,Getac,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+676026,6460.041,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14547378,161.23358,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4131007,1567.3265,Getac,unknown,128,4,1.6,20 cm (8"),1200x800,128,unknown,unknown,128,unknown
+6791397,1484.0917,Getac,Windows 10 Professional,64,4,1.6,20 cm (8"),1280x800,64,unknown,unknown,64,unknown
+3539111,71.09689,Mpman,Android,16,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10178522,241.08649,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10153469,132.2549,TrekStor,Android,8,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9832802,620.15,Samsung,Android,32,3,1.9,30 cm (12"),2560x1600,unknown,unknown,unknown,unknown,unknown
+2924945,100.0408,Hannspree,Android,8,unknown,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13597904,5677.531,Asus,Windows 10 Home,128,4,1.4,25 cm (10"),1280x800,128,unknown,unknown,128,unknown
+5407335,601.21405,Apple,Apple iOS,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+15061258,4528.1978,Lenovo,Android,unknown,2,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+8332404,1116.9333,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16353580,72.369,Asus,Android,8,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12631009,604.4681,Lenovo,Windows 10 Home 64-Bit,1000,8,2.5,36 cm (14"),1920x1080,1000,unknown,unknown,unknown,Intel HD Graphics 600
+10866993,232.14383,Odys,Windows 10 Home,32,2,1.4,unknown,768x1366,32,unknown,unknown,unknown,Intel HD Graphics 400
+9884019,331.94446,Lenovo,Windows 10 Home,unknown,4,2,38 cm (15"),1366x768,unknown,unknown,unknown,unknown,Intel HD Graphics 500
+1583121,213.35841,Xoro,Android,16,unknown,1.3,61 cm (24"),unknown,unknown,unknown,unknown,unknown,unknown
+7302329,215.21751,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+780989,145.14934,Samsung,Android,8,1.5,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+2301458,322.16556,Asus,Windows 10 Home,64,2,1.5,25 cm (10"),1920x1080,64,unknown,unknown,unknown,unknown
+1467026,62.369335,Prestigio,Android,4,unknown,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14206200,192.14484,Hamlet,Android,16,1,1.6,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7851036,236.05713,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+11789899,530.99506,Apple,Apple iOS,64,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13375421,221.45537,Acer,Windows 10 Home,64,2,1.3,25 cm (10"),1280x800,64,unknown,unknown,unknown,unknown
+5101509,596.1568,Samsung,Android,8,1.5,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6336913,162.96153,Thomson,Windows 8.1,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6413442,7650.6226,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5858606,95.32072,Captiva,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14124000,875.5499,Sony,Windows 8 64-Bit,500,4,1.6,38 cm (15"),1920x1080,500,unknown,unknown,unknown,Intel HD Graphics 4000
+12369112,1487.02,Panasonic,Android,32,2,1.7,13 cm (5"),unknown,unknown,unknown,unknown,unknown,unknown
+9485696,2700.3408,Modecom,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3540923,104.267944,Hannspree,unknown,unknown,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2397975,888.98975,Unbekannt,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+6184314,1103.31,Samsung,Windows 8 Pro 64-Bit,128,4,1.7,28 cm (11"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 4000
+9509936,199.16978,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+7132742,2699.6013,Getac,Windows 10 Professional 64-Bit,128,8,2.3,28 cm (11"),1366x768,128,unknown,unknown,128,Intel HD Graphics 500
+7452690,437.4,Sony,Android,32,2,1.5,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9738771,1122.2987,Apple,unknown,128,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2752719,360.76035,Lenovo,Android,64,4,1.4,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15379056,20344.164,Fujitsu,Windows 10 Professional,256,unknown,3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+4433180,4122.2046,Lenovo,Android,unknown,unknown,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1526557,76.44456,Mpman,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+5582632,38.642628,Danew,Android,4,0.5,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14560251,1189.8323,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12930263,184.63618,TrekStor,Android,16,1,1.1,33 cm (13"),unknown,unknown,unknown,unknown,unknown,unknown
+7027138,443.79822,Samsung,Android,32,3,1.9,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+6437438,4797.093,Lenovo,Android,64,4,2.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8340061,137.53673,Unbekannt,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3881745,8255.133,Apple,unknown,128,2,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10150393,459.40518,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6757580,509.27783,Microsoft,Windows 8.1 Pro 64-Bit,64,4,1.6,25 cm (10"),1920x1280,64,unknown,unknown,64,unknown
+15841023,562.5057,HP,Android,32,2,2.3,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7418726,893.22894,Lenovo,Windows 10 Home 64-Bit,256,8,2.7,36 cm (14"),1920x1080,256,unknown,unknown,256,NVIDIA GeForce GTX 900
+2782572,44573.266,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+6400155,2575.6929,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2797678,3497.6528,Lenovo,Android,unknown,2,1,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+14884734,114.975334,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12184460,747.9435,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+4668958,346.86084,Apple,unknown,16,2,1.5,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1656616,1622.445,Winmate,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11481453,479.28223,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6066260,3675.036,Phoenix Contact,Windows 7 Ultimate 64-Bit,unknown,unknown,1.6,33 cm (13"),unknown,unknown,unknown,unknown,unknown,unknown
+4227022,175.36435,Tarox,Windows 10 Professional,64,2,unknown,25 cm (10"),800x1280,unknown,unknown,unknown,unknown,unknown
+1477267,99.628746,Archos,Android,64,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+7102063,702.59766,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+2215847,5058.055,Lenovo,Android,unknown,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13215571,400.73526,Lenovo,Android,64,4,1.4,25 cm (10"),1920x1200,64,unknown,unknown,64,Intel HD Graphics 400
+6205572,260.87833,Apple,unknown,32,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10709286,167.10931,unknown,unknown,32,2,unknown,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+11674588,381.15222,Samsung,Android,32,3,1.9,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13075778,66.956,Estar,unknown,unknown,8,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12183119,340.93668,Apple,unknown,16,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3445528,331.67224,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4027609,806.31494,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+6511036,3555.9065,Apple,Apple iOS,256,2,2.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7102060,92.466675,AQISTON Digital,Android,4,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3981185,1494.914,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+12089923,139.88103,Axdia,Android,8,1,1.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14875816,9441.087,Asus,unknown,128,4,1.4,25 cm (10"),1280x800,128,unknown,unknown,unknown,unknown
+12231376,351.70502,Apple,Windows XP Home,16,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11524237,870.09753,Asus,Windows 10 Home 64-Bit,256,8,3.1,33 cm (13"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 600
+15718610,540.20557,Apple,Apple iOS,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+2121630,238.04333,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14276107,411.59396,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3138726,24650.334,unknown,Android,unknown,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+5009203,545.6885,Apple,Apple iOS,64,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3022355,145.32133,Asus,unknown,32,2,1.5,25 cm (10"),1366x768,32,unknown,unknown,unknown,unknown
+4811489,53.258953,Archos,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+1255437,366.1706,Asus,Windows 10 Home 64-Bit,128,2,1.4,25 cm (10"),1280x800,128,unknown,unknown,128,unknown
+12405355,2606.1062,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+11304322,2214.5496,Panasonic,Windows 7 Professional,128,4,1.1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12356645,430.91,Samsung,Android,32,3,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13227585,99.483986,Hamlet,Android,8,1,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9568307,1178.6434,Acer,Android,32,unknown,2.4,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+10381782,465.6211,Apple,MacOS X,32,2,unknown,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+9863956,165.55452,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6265242,228.95193,Asus,Windows 10 Professional,32,2,1.4,25 cm (10"),1280x800,32,unknown,unknown,unknown,Intel HD Graphics 400
+5629880,416.38,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+409727,1693.9268,Getac,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4694409,4556.092,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12278841,1721.6266,unknown,Android,unknown,unknown,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3823035,94.56,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10714605,572.3229,Apple,Apple iOS,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13149763,1474.0,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5150506,324.16556,Samsung,Android,32,3,1.9,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+13149766,1245.0,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13149770,1059.0,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4049804,847.46155,HP,Windows 8.1 Pro 64-Bit,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15130187,276.31665,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12317944,528.51935,Samsung,Android,8,1.5,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+4473282,251.53369,Telekom,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2648470,365.40335,Hannspree,Android,8,8,1.6,58 cm (23"),unknown,unknown,unknown,unknown,unknown,unknown
+3368193,1329.7526,Getac,Android,16,1,1,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13754209,467.82477,Apple,unknown,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10443534,1003.4278,Microsoft,unknown,128,8,unknown,30 cm (12"),2736x1824,unknown,unknown,unknown,unknown,unknown
+13849939,343.50778,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+9474945,525.69653,Dell,unknown,500,4,unknown,33 cm (13"),1920x1080,500,unknown,unknown,unknown,Intel HD Graphics 500
+11365147,1762.2479,HP,Windows 8.1 Pro 64-Bit,256,8,2.6,33 cm (13"),2560x1440,256,unknown,unknown,256,Intel HD Graphics 5000
+9128503,1178.4484,Lenovo,Windows 10 Home,256,8,1.2,30 cm (12"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 500
+2723333,104.49198,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11523742,235.03003,Lenovo,Windows 10 Professional,32,2,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14744406,13235.131,Fujitsu,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+8126336,14964.582,Asus,Windows 10 Professional,512,8,2.5,30 cm (12"),unknown,512,unknown,unknown,512,Intel HD Graphics 500
+13590449,198.92001,Asus,Android,16,2,1.2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+9272074,145.81667,Asus,Android,16,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14721786,140.73067,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1928030,73.10687,Thomson,unknown,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+12405380,535.0,Asus,Android,64,1,1.7,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10443529,1607.875,Microsoft,unknown,256,8,unknown,30 cm (12"),2736x1824,unknown,unknown,unknown,unknown,unknown
+3171336,1073.4609,Fujitsu,Windows 8.1 Pro 64-Bit,128,4,1.6,20 cm (8"),1920x1200,128,unknown,unknown,128,unknown
+4379161,583.2533,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10709227,267.25735,unknown,unknown,32,2,unknown,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+2444604,260.57626,HP,Windows 10 Home 64-Bit,32,2,1.4,25 cm (10"),1280x800,32,unknown,unknown,32,Intel HD Graphics 400
+2896512,7985.4175,Lenovo,Android,16,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12892219,253.67075,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15501500,201.97664,Samsung,Android,unknown,1,1.6,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12207680,795.50336,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7035604,430.13226,Apple,unknown,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14567790,935.369,Microsoft,unknown,128,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+6242584,205.26836,Samsung,Android,16,unknown,1,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9325707,3122.9553,Microsoft,Windows 10 Professional,256,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+1288320,549.60004,Apple,Apple iOS,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+2837365,120.80332,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14239102,911.1374,Apple,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+10681262,875.89343,Microsoft,unknown,128,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+11916377,2430.5461,Getac,unknown,128,4,unknown,25 cm (10"),1920x1200,128,unknown,unknown,128,Intel HD Graphics 5000
+9789506,129.17867,Samsung,Android,8,1.5,1.3,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11589592,92.02334,Lenco,Android,8,0.5,1.3,13 cm (5"),unknown,unknown,unknown,unknown,unknown,unknown
+15717381,174.685,Asus,Android,16,2,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9322684,754.0,Samsung,Android,16,1,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12707585,81.76325,Danew,Windows 8.1,16,1,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+1102073,453.14655,Apple,unknown,16,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14484895,1292.7966,unknown,Android,unknown,unknown,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6222986,1860.3917,Microsoft,unknown,512,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+7955608,6504.4106,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2644913,365.2778,Apple,unknown,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9344015,524.49,Samsung,Android,32,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3455727,129.61658,Samsung,Android,8,1.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+67407,969.0161,Apple,Apple iOS,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+1835160,502.52887,Apple,unknown,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+14403493,3543.1846,Unbekannt,Apple iOS,128,2,2.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13709648,1011.0699,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+4592406,444.8534,Umax,Android,8,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13856241,2712.4724,Asus,Android,100,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13508022,527.98584,Unbekannt,unknown,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+923807,1556.8215,Microsoft,Windows 10 Professional 64-Bit,256,16,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+4986472,323.69485,Apple,unknown,16,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+232556,119.37992,Asus,Android,16,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10860791,146.86156,Archos,Android,16,1,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16389552,5277.219,Apple,unknown,128,2,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+6222979,1582.5016,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13732893,870.72504,Microsoft,Windows 10 Professional 64-Bit,128,4,0.9,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+16470368,387.0,Samsung,Android,16,1.5,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+16563255,775.19385,HP,Windows 10 Professional 64-Bit,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9906799,522.46,Samsung,Android,32,2,1.6,46 cm (18"),unknown,unknown,unknown,unknown,unknown,unknown
+13951459,958.8815,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12359747,170.91573,Axdia,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4619965,809.16,Samsung,Windows 10 Professional,128,4,2.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+6222969,918.36536,Microsoft,unknown,128,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+5849761,368.87778,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4638220,131.81847,Asus,Android,16,2,1.3,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+4879048,1359.1266,Lenovo,Windows 10 Professional,256,8,1.2,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+8295140,1763.3229,Apple,unknown,16,2,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10044224,114.71,Lenco,Android,8,1,1.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+1428223,45.090004,Billow,Android,8,1,1.4,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14049160,2486.4866,Apple,unknown,32,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+11066904,117.28,Lenovo,Android,unknown,unknown,unknown,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+4333801,102.78334,Lenco,Android,8,0.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+987028,421.93103,Apple,unknown,16,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+15263213,1708.4268,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15298792,420.81116,Samsung,Android,16,1.5,1.2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+3757146,181.74023,Acer,unknown,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+15206776,126.71234,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8334269,949.1067,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4803905,547.53217,HP,Windows 8.1 Pro 64-Bit,128,4,1.6,28 cm (11"),1366x768,128,unknown,unknown,128,unknown
+10389667,209.85457,Thomson,Windows 10 Home,64,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3266118,116.42063,Asus,Android,16,1,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+5474973,2058.09,HP,Windows 10 Professional,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6542264,220.52998,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4741225,283.5032,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+396748,682.3454,Medion,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8918241,743.6074,Apple,Apple iOS,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9769914,2943.5027,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12366966,937.02026,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+7645818,340.93668,Apple,unknown,16,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8510631,121.30833,Unbekannt,Android,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+2651231,527.37415,Apple,Windows XP Professional,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13096745,2170.21,Panasonic,Windows 8.1,128,4,1.6,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13987441,262.43503,Apple,Apple iOS,16,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12591379,534.04016,Unbekannt,Windows 10 Home,128,4,1.1,30 cm (12"),2160x1440,unknown,unknown,unknown,unknown,unknown
+150284,6524.395,Acer,Windows 10 Home,128,4,2.3,unknown,unknown,128,unknown,unknown,128,Intel HD Graphics 500
+14993781,724.5868,Apple,unknown,128,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+10134280,2301.8225,Asus,Android,100,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13437331,767.5234,Acer,Windows 10 Home,256,8,2.5,30 cm (12"),2160x1440,256,unknown,unknown,256,Intel HD Graphics 500
+4935688,200.67082,Verico,Windows 10 Home 32-Bit,128,2,1.4,25 cm (10"),1280x800,unknown,unknown,unknown,unknown,unknown
+9538509,356.62775,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8050789,56.313152,Danew,Android,8,1,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8041870,187.61342,Huawei Technologies,Android,16,unknown,1.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+9420216,427.28333,Samsung,Android,32,3,1.8,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+2997988,1513.3739,Getac,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12062098,259.83542,Acer,Windows 10 Professional,32,2,1.3,25 cm (10"),1280x800,32,unknown,unknown,unknown,unknown
+11185368,236.07921,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14237409,1299.941,Apple,unknown,128,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1742931,2520.4192,Asus,Android,unknown,2,1.3,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5434017,651.2417,Apple,Apple iOS,64,1,1.4,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11667466,3140.4568,Getac,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16210322,7440.376,Dell,Windows 10 Professional,1000,8,2.5,38 cm (15"),1920x1080,1000,unknown,unknown,unknown,Intel HD Graphics 600
+15162606,347.09695,Apple,Apple iOS,16,1,1.3,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+8641069,239.53168,Samsung,Android,16,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4779822,235.7127,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14992436,1179.6075,Apple,unknown,32,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7918759,335.0136,Apple,unknown,16,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+4693063,46.062233,Mobii,Android,unknown,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3996191,996.9634,Fujitsu,Windows 10 Professional,128,4,0.9,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+2034768,162.2889,Asus,Android,16,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8862207,175.19751,Asus,Android,16,2,1.2,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10422661,281.855,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14568119,1565.8016,Microsoft,unknown,256,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+9343660,328.7467,Samsung,Android,16,unknown,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1787899,382.565,Samsung,Android,32,3,1.9,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+9782935,73.159996,Alcatel,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16695884,120.465324,Linx,Windows 10 Home,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12049189,296.74142,Acer,Chrome OS,32,4,1.6,28 cm (11"),1366x768,32,unknown,unknown,32,Intel HD Graphics 400
+1876414,234.83551,Medion,Android,64,2,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12927417,955.14,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10650192,822.6662,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12894914,492.02777,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+7014625,124.2948,HannsG,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4731851,938.76,Microsoft,Windows 10 Professional,256,8,1.9,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+5304932,495.0886,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16705781,291.6375,Huawei Technologies,Android,16,2,2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+14472040,323.15778,Acer,Android,32,2,1.5,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1950835,268892.66,Microsoft,Windows 10 Professional,128,4,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+8667697,543.3117,Samsung,Android,32,2,1.6,46 cm (18"),1920x1080,unknown,unknown,unknown,unknown,unknown
+6619192,131.75592,Xoro,unknown,32,2,1.4,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+7734429,766.1144,Asus,Windows 10 Home 64-Bit,128,8,0.9,30 cm (12"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 500
+14568105,1342.2365,Microsoft,unknown,256,8,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+9167330,1032.8126,Acer,Windows 10 Home 64-Bit,256,8,1.3,36 cm (14"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 600
+8964105,131.01768,Samsung,Android,8,1.5,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+4685473,138.482,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+7113544,133.79666,Colorovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3913096,733.8516,Samsung,Windows 10 Professional,128,4,2.2,30 cm (12"),2160x1440,128,unknown,unknown,unknown,Intel HD Graphics 500
+5206535,283.98166,Apple,Apple iOS,16,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+4308811,7299.9414,Microsoft,Windows 10 Professional,256,8,2.6,33 cm (13"),3000x2000,256,unknown,unknown,256,NVIDIA GeForce GTX 900
+8358264,128252.0,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+15790793,842.41003,Lenovo,unknown,unknown,unknown,unknown,30 cm (12"),unknown,256,unknown,unknown,256,Intel HD Graphics 500
+16686193,241.81664,Huawei Technologies,Android,16,2,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+11719065,10650.493,Samsung,Android,16,1.5,1.2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+15902568,58.91889,Estar,Android,8,0.5,1.2,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+11200572,312.914,Lenovo,Windows 10 Professional,64,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3745143,310.49408,Asus,Windows 10 Professional,128,4,1.4,25 cm (10"),1280x800,128,unknown,unknown,unknown,Intel HD Graphics 400
+25521,415.15433,Apple,MacOS X,32,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+5090369,3603.0503,Xplore Technologies,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11540248,849.45667,Dell,Windows 10 Professional,256,8,2.5,33 cm (13"),1920x1080,256,unknown,unknown,256,Intel HD Graphics 600
+3712221,563.1555,HP,Windows 10 Professional,64,4,1.4,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13107860,171.38153,Lenovo,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13359321,6606.5127,Lenovo,unknown,64,4,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+11498233,237.15298,Medion,Android,64,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+8986362,2106.4143,Modecom,Android,16,1,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6523944,542.8433,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+13086525,251.20665,ProDVX,Android,8,2,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1818574,8099.3423,Microsoft,Windows 10 Professional 64-Bit,128,8,2.4,33 cm (13"),3000x2000,128,unknown,unknown,128,Intel HD Graphics 500
+300308,1323.4401,HP,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10556173,2754.5671,Getac,Windows 10 Professional,256,4,2.2,20 cm (8"),1280x800,256,unknown,unknown,256,unknown
+9757990,2280.1238,Microsoft,Windows 10 Professional 64-Bit,256,8,2.2,30 cm (12"),2736x1824,256,unknown,unknown,256,unknown
+308276,53470.0,Asus,Android,16,2,unknown,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+13827675,109.00832,Acer,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+11793050,807.2167,Apple,Apple iOS,64,1,1.4,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11680451,96.42387,Lenovo,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+12770745,271.3633,Lenovo,Windows 10 Home,64,4,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+14595778,1229.5804,Fujitsu,Windows 10 Professional,512,8,2.6,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+7990077,614.2319,Apple,unknown,unknown,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+2100643,1111.6538,Apple,unknown,256,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+6899507,397.37396,Samsung,Android,32,3,1.9,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+8124604,385.91113,Samsung,Android,32,3,1.8,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1879569,554.39,Apple,unknown,32,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+11269476,599.8711,Samsung,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15196009,376.93555,Apple,Apple iOS,32,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+5131306,59.900005,TrekStor,Android,8,0.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+7745136,4265.2856,Unbekannt,Windows 10 Home,256,unknown,2.5,38 cm (15"),unknown,256,unknown,unknown,256,Intel HD Graphics 500
+7109470,235.71416,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+10788093,881.61835,HP,Windows 8.1 Pro 64-Bit,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3613445,1044.0491,Apple,Apple iOS,256,2,2.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16578373,1640.9567,Fujitsu,Windows 10 Professional,512,8,2.6,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+5960226,573.2867,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14245883,572.98334,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10855347,230.8,Acer,Windows 10 Home,32,2,1.3,25 cm (10"),1280x800,32,unknown,unknown,32,unknown
+692824,376.775,HP,Android,32,2,2.3,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10950617,3018.5752,Apple,MacOS X,256,2,2.2,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+7612951,282.466,Asus,Windows 10 Home,64,2,1.4,25 cm (10"),1280x800,64,unknown,unknown,unknown,unknown
+3462955,1282.78,HP,Windows 10 Professional,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+3449993,397.71,Samsung,Android,16,1,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+4116168,2430.7664,Getac,unknown,128,4,unknown,25 cm (10"),1920x1080,128,unknown,unknown,128,Intel HD Graphics 5000
+626507,218.07002,Axdia,Windows 10 Home,32,2,1.3,unknown,1366x768,32,unknown,unknown,32,unknown
+9174417,575.8711,Lenovo,Windows 8.1,64,2,1.6,25 cm (10"),1920x1200,64,unknown,unknown,unknown,unknown
+538327,383.09277,Lenovo,Windows 10 Professional,64,4,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+7738852,205.12279,Lenovo,Android,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+13687886,872.80005,Fujitsu,Windows 10 Professional,256,4,2.3,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+9170924,6183.1177,Apple,unknown,128,2,1.5,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+8771848,4093.4116,Apple,MacOS X,256,2,2.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+12844636,1262.3151,HP,Windows 10 Professional,256,8,1.1,30 cm (12"),1920x1280,256,unknown,unknown,unknown,Intel HD Graphics 500
+15161366,270.75598,unknown,unknown,32,2,unknown,28 cm (11"),unknown,unknown,unknown,unknown,unknown,unknown
+10073608,159.5275,Lenovo,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+1320155,2813.4868,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+14086963,451.1594,Unbekannt,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5469507,880.14606,Apple,unknown,128,unknown,unknown,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+857991,1243.0837,Panasonic,Android,32,4,1.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6004894,2894.275,Xplore Technologies,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8120231,152.08,Archos,Android,16,2,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+987078,486.585,Ruggear,Android,16,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+14396749,152.08,Lenovo,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6176654,127.838646,Acer,Android,16,1,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+9296816,520.0572,Huawei Technologies,Windows 10 Home,128,4,0.9,30 cm (12"),unknown,unknown,unknown,unknown,unknown,unknown
+2693928,989.4669,Getac,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+9455776,1228.8789,HP,Windows 8,64,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+1040134,530.7878,Sony,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13470764,193.32918,Odys,Windows 10 Home 32-Bit,32,2,1.4,28 cm (11"),1366x768,32,unknown,unknown,32,Intel HD Graphics 400
+4633492,378.3267,Samsung,Android,32,3,1.8,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+8338693,830.8432,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+2854671,79.877594,VTech,Android,8,1,1.2,13 cm (5"),unknown,unknown,unknown,unknown,unknown,unknown
+6026230,421.40884,Lenovo,Windows 10 Home,1000,4,2,36 cm (14"),1280x720,1000,unknown,unknown,unknown,AMD Radeon R5
+9466430,2048.9788,Panasonic,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8397880,57.622967,Hamlet,Android,8,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+4815086,613.61005,Microsoft,Windows 8.1,128,4,1.6,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15132872,76.360825,Mpman,Android,16,1,unknown,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+12382199,7773.0537,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8215886,295.88696,Acer,Windows 10 Home 64-Bit,32,2,1.6,28 cm (11"),1366x768,32,unknown,unknown,32,unknown
+15699864,103.70205,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+10343409,388.31998,Sony,Android,16,2,1.5,25 cm (10"),unknown,unknown,unknown,8,unknown,unknown
+10611411,960.0305,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16082512,3035.4622,Asus,Windows 10 Home,64,2,1.4,25 cm (10"),1280x800,64,unknown,unknown,unknown,Intel HD Graphics 400
+13876619,100.28666,Lenco,Android,8,0.5,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13321609,3167.1384,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+4895176,307.58444,Dell,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+15903814,407.1155,Apple,unknown,128,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+13129250,4788.8164,Unbekannt,Android,32,3,1.8,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+15715505,278.43,Lenovo,Windows 10 Professional,32,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+758261,90.936005,Estar,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+10352323,4051.9946,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+3101524,161.22716,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+16568157,6968.3535,Lenovo,unknown,64,4,2.4,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+6594250,164.04143,Asus,Android,16,2,1.3,25 cm (10"),unknown,unknown,unknown,unknown,unknown,unknown
+5182904,362.93445,Apple,unknown,64,unknown,unknown,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+16222334,179.32227,Acer,Android,16,1,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+16467539,2304.8147,Apple,unknown,32,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+16276152,2432.3545,Modecom,Android,16,2,1.6,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+16201435,1056.1228,Apple,Apple iOS,256,2,2.2,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+13422208,64.7962,i.onik,Android,8,1,1.2,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+7944149,239.85272,Apple,unknown,16,unknown,1.3,18 cm (7"),unknown,unknown,unknown,unknown,unknown,unknown
+3706409,431.56473,Apple,Apple iOS,64,unknown,unknown,23 cm (9"),unknown,unknown,unknown,unknown,unknown,unknown
+12937622,199.45331,Asus,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+5332999,2379.8577,Getac,unknown,128,8,1.6,20 cm (8"),unknown,unknown,unknown,unknown,unknown,unknown
+7144628,3012.8801,Microsoft,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+466279,1749.6902,Apple,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+8187312,839.6167,HP,unknown,unknown,unknown,unknown,33 cm (13"),unknown,256,unknown,unknown,256,Intel HD Graphics 600
