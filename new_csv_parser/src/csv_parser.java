@@ -10,22 +10,23 @@ public class csv_parser {
     private static HashMap<String, HashMap<String, Article>> duplicateSetHashMap = new HashMap<>();
     private static HashMap<String, Article> mergedHashMap = new HashMap<>();
 
-    private static final String dataPath = "C:/Users/wang.daoping/Documents/feature data/";
-    private static final String tabletsMercateoKeywordFilepath = dataPath + "tablets_article_mercateo_keywords.dat";
-    private static final String articleFeatureValueFilepath = dataPath + "tablets_article_feature_value.dat";
-    private static final String priceDataFilepath = dataPath + "tablets_article_price_data.dat";
-    private static final String baseDataFilepath = dataPath + "tablets_article_base_data.dat";
-    private static final String duplicateFilepath = dataPath + "tablets_article_duplicate_relation.dat";
+    private static final String dataPath = "C:/Users/wang.daoping/Documents/new_feature_Data/dbacess/kopierpapier_keywords_data/";
+    private static final String tabletsMercateoKeywordFilepath = dataPath + "kopierpapier_mercateo_keyword_data.csv";
+    private static final String articleFeatureValueFilepath = dataPath + "kopierpapier_articles_features_set.csv";
+    private static final String priceDataFilepath = dataPath + "kopierpapier_price_data.csv";
+    private static final String brandDataFilepath = dataPath + "kopierpapier_brand_data.csv";
+    private static final String duplicateFilepath = dataPath + "kopierpapier_duplicate_relation_data.csv";
 
     private static List<String> tabletKeywordList = new ArrayList<>();
     private static List<String> tabletFeatureList = new ArrayList<>();
+    private static List<String> featureNameList = new ArrayList<>();
 
     private static void collectArticles() throws IOException {
         String[] lineBuffer;
         CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(tabletsMercateoKeywordFilepath),
                 "Cp1252"), '\t', '\"', 1);
         while((lineBuffer = reader.readNext()) != null){
-            if(isTablet(lineBuffer[2])) articleHashMap.put(lineBuffer[1], new Article(lineBuffer[1]));
+            if(isTablet(lineBuffer[2]) && !articleHashMap.containsKey(lineBuffer[1])) articleHashMap.put(lineBuffer[1], new Article(lineBuffer[1]));
         }
     }
 
@@ -52,18 +53,21 @@ public class csv_parser {
         CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(articleFeatureValueFilepath),
                 "Cp1252"), '\t', '\"', 1);
         while((lineBuffer = reader.readNext()) != null){
+            if(!featureNameList.contains(lineBuffer[2])){
+                featureNameList.add(lineBuffer[2]);
+            }
             if(!articleHashMap.containsKey(lineBuffer[1])) continue;
             articleHashMap.get(lineBuffer[1]).addFeature(lineBuffer[2], lineBuffer[3]);
         }
     }
 
-    private static void collectBaseValues() throws IOException {
+    private static void collectBrandData() throws IOException {
         String[] lineBuffer;
-        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(baseDataFilepath),
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(brandDataFilepath),
                 "Cp1252"), '\t', '\"', 1);
         while((lineBuffer = reader.readNext()) != null){
             if(!articleHashMap.containsKey(lineBuffer[1])) continue;
-            articleHashMap.get(lineBuffer[1]).addFeature("brand", lineBuffer[7]);
+            articleHashMap.get(lineBuffer[1]).addFeature("brand", lineBuffer[2]);
         }
     }
 
@@ -87,7 +91,7 @@ public class csv_parser {
                 "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.NO_ESCAPE_CHARACTER);
 
         StringBuilder lineBuffer = new StringBuilder("set_id\tarticle_id\tprice");
-        for(String feature : tabletFeatureList){
+        for(String feature : featureNameList){
             lineBuffer.append("\t");
             lineBuffer.append(feature);
         }
@@ -98,7 +102,7 @@ public class csv_parser {
             for(Map.Entry<String, Article> _iterator : iterator.getValue().entrySet()){
                 String id = iterator.getKey() + "\t" + _iterator.getKey() + "\t" + _iterator.getValue().getAvgPrice();
                 lineBuffer = new StringBuilder(id);
-                for(String featureName : tabletFeatureList){
+                for(String featureName : featureNameList){
                     lineBuffer.append("\t");
                     lineBuffer.append(_iterator.getValue().features.get(featureName)); // care NaN!
                 }
@@ -110,7 +114,7 @@ public class csv_parser {
     }
 
     private static void writeMergedCSV() throws IOException {
-        String filename = "tablets_merged_data.csv";
+        String filename = "kopierpapier_training_data.csv";
         CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(dataPath + filename),
                 "Cp1252"), ',', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.NO_ESCAPE_CHARACTER);
 
@@ -164,24 +168,53 @@ public class csv_parser {
         tabletKeywordList.add("Hybrid-Tablet");
         tabletKeywordList.add("Tab Samsung");
 
+        tabletKeywordList.add("brand");
+        tabletKeywordList.add("Betriebssystem");
+        tabletKeywordList.add("SpeicherkapazitÃ¤t");
+        tabletKeywordList.add("Arbeitsspeicher");
+        tabletKeywordList.add("CPU-Taktfrequenz");
+        tabletKeywordList.add("Bilddiagonale");
+        tabletKeywordList.add("AuflÃ¶sung");
+        tabletKeywordList.add("Festplatte");
+        tabletKeywordList.add("AkkukapazitÃ¤t");
+        tabletKeywordList.add("AuflÃ¶sung Hauptkamera");
+        tabletKeywordList.add("SSD-SpeicherkapazitÃ¤t");
+        tabletKeywordList.add("Grafik-Controller-Serie");
+
+        tabletKeywordList.add("Allroundpapier");
+        tabletKeywordList.add("Druckerpapier");
+        tabletKeywordList.add("Druckpapier");
+        tabletKeywordList.add("farbiges Kopierpapier");
+        tabletKeywordList.add("Farbkopierpapier");
+        tabletKeywordList.add("Farblaser-papier");
+        tabletKeywordList.add("Fotokopierpapier");
+        tabletKeywordList.add("Ink-Jet-Druckerpapier");
+        tabletKeywordList.add("Ink-Jet-Papier");
+        tabletKeywordList.add("Inkjetdruckerpapier");
+        tabletKeywordList.add("Kopierpapier");
+        tabletKeywordList.add("Kopierpapier farbig");
+        tabletKeywordList.add("Laserpapier");
+        tabletKeywordList.add("Mehrzweckpapier");
+        tabletKeywordList.add("Multifunktionspapier");
+        tabletKeywordList.add("Multiprintpapier");
+        tabletKeywordList.add("Officepapier");
+        tabletKeywordList.add("Universalpapier");
+
         tabletFeatureList.add("brand");
-        tabletFeatureList.add("Betriebssystem");
-        tabletFeatureList.add("SpeicherkapazitÃ¤t");
-        tabletFeatureList.add("Arbeitsspeicher");
-        tabletFeatureList.add("CPU-Taktfrequenz");
-        tabletFeatureList.add("Bilddiagonale");
-        tabletFeatureList.add("AuflÃ¶sung");
-        tabletFeatureList.add("Festplatte");
-        tabletFeatureList.add("AkkukapazitÃ¤t");
-        tabletFeatureList.add("AuflÃ¶sung Hauptkamera");
-        tabletFeatureList.add("SSD-SpeicherkapazitÃ¤t");
-        tabletFeatureList.add("Grafik-Controller-Serie");
+        tabletFeatureList.add("Format");
+        tabletFeatureList.add("Farbe");
+        tabletFeatureList.add("Verpackungseinheit");
+        tabletFeatureList.add("PapierstÃ¤rke");
+        //tabletFeatureList.add("Lineatur");
+        //tabletFeatureList.add("Ã¶kologie");
+
+        featureNameList.add("brand");
 
         try {
             collectArticles();
             collectFeatureValues();
             collectPriceData();
-            collectBaseValues();
+            collectBrandData();
             collectDuplicateRelations();
             mergeDuplicates();
             //writeRawCSV();

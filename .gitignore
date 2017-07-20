@@ -90,5 +90,10 @@ fabric.properties
 
 # nn_linreg
 /NN_linreg_tf/.idea/
+/NN_linreg_tf/results/
+/NN_linreg_tf/model/
+/NN_linreg_tf/archive/
+/NN_linreg_tf/__pycache__/
 /NN_linreg_tf/tablets_training.csv
 /NN_linreg_tf/tablets_testing.csv
+*.h5
