@@ -28,7 +28,7 @@ def read_data(filename):
     return X_train,Y_train, X_test, Y_test, onehot_dimension, np.array(data_frame.ix[2501:, :])
 
 
-def build_model(input_dim):
+def build_linear_model(input_dim):
     model = Sequential()
     model.add(Dense(500, input_dim=input_dim, activation='relu'))
     # model.add(Dropout(0.15))
@@ -43,24 +43,23 @@ def build_model(input_dim):
 
 def main():
     # train_file = 'tablets_training_data.csv'
-    train_file = 'kopierpapier_training_data.csv'
+    train_file = 'kopierpapier_enriched_training_data.csv'
     X_train, Y_train, X_test, Y_test, onehot_dimension, test_dat = read_data(filename=train_file)
-    '''
-    model = build_model(onehot_dimension)
-    model.fit(X_train, Y_train, nb_epoch=1000, verbose=1)
-    model.save('/model/kopierpapier_2_model.h5')
 
-    '''
-    model = load_model('/model/kopierpapier_2_model.h5')
+    # model = build_linear_model(onehot_dimension)
+    # model.fit(X_train, Y_train, nb_epoch=1000, verbose=1)
+    # model.save('kopierpapier_enriched_model.h5')
+
+    model = load_model('kopierpapier_enriched_model.h5')
 
     predictions = model.predict(X_test, verbose=1)
     predictions = predictions.astype(float)
-    results = np.concatenate((np.reshape(Y_test, (Y_test.shape[0], 1)), predictions), axis=1)
-    print(results)
+    # results = np.concatenate((np.reshape(Y_test, (Y_test.shape[0], 1)), predictions), axis=1)
+    # print(results)
 
     results = np.concatenate((test_dat, np.reshape(Y_test.astype(float), (Y_test.shape[0], 1))), axis=1)
     results = np.concatenate((results, predictions), axis=1)
-    with open('/results/kopierpapier_2_model.csv', 'w', newline='') as f:
+    with open('kopierpapier_enriched_model.csv', 'w', newline='') as f:
         csvwriter = csv.writer(f, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for row in results:
             csvwriter.writerow(row)
