@@ -114,12 +114,12 @@ public class csv_parser {
     }
 
     private static void writeMergedCSV() throws IOException {
-        String filename = "kopierpapier_training_data.csv";
+        String filename = "kopierpapier_full_data.csv";
         CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(dataPath + filename),
                 "Cp1252"), ',', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.NO_ESCAPE_CHARACTER);
 
         StringBuilder lineBuffer = new StringBuilder("set_id\tprice");
-        for(String feature : tabletFeatureList){
+        for(String feature : featureNameList){
             lineBuffer.append("\t");
             lineBuffer.append(feature);
         }
@@ -131,7 +131,7 @@ public class csv_parser {
             if (( avg_price= iterator.getValue().getAvgPrice()) == -1) continue;
             String id = iterator.getKey() + "\t" + Float.toString(avg_price);
             lineBuffer = new StringBuilder(id);
-            for(String featureName : tabletFeatureList){
+            for(String featureName : featureNameList){
                 lineBuffer.append("\t");
                 lineBuffer.append(iterator.getValue().features.get(featureName)); // care NaN!
             }
@@ -160,7 +160,71 @@ public class csv_parser {
         }
     }
 
+    private static void readTrainingData(
+            String filepath, List<String> brandList, List<String> formatList, List<String> farbeList, List<String> vpeList, List<String> staerkeList)
+            throws IOException{
+        String[] lineBuffer;
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(filepath),
+                "Cp1252"), ',', '\"', 1);
+        while ((lineBuffer = reader.readNext()) != null){
+            if(!brandList.contains(lineBuffer[2])) brandList.add(lineBuffer[2]);
+            if(!formatList.contains(lineBuffer[3])) formatList.add(lineBuffer[3]);
+            if(!farbeList.contains(lineBuffer[4])) farbeList.add(lineBuffer[4]);
+            if(!vpeList.contains(lineBuffer[5])) vpeList.add(lineBuffer[5]);
+            if(!staerkeList.contains(lineBuffer[6])) staerkeList.add(lineBuffer[6]);
+        }
+        reader.close();
+    }
+
+    private static void writeTestData(
+            String filepath, List<String> brandList, List<String> formatList, List<String> farbeList, List<String> vpeList, List<String> staerkeList
+    ) throws IOException{
+        List<String> newBrandList = new ArrayList<>();
+        newBrandList.add("Clairefontaine");
+        newBrandList.add("Mondi");
+        newBrandList.add("Staples");
+        newBrandList.add("Arjowiggins");
+
+        for(String brand : newBrandList){
+            String filename = brand + "_evaluation_data.csv";
+            CSVWriter writer = new CSVWriter(new OutputStreamWriter(new FileOutputStream(filepath + filename),
+                    "Cp1252"), '\t', CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.NO_ESCAPE_CHARACTER);
+
+            StringBuilder lineBuffer = new StringBuilder("brand\tFormat\tFarbe\tVerpackungseinheit\tPapierstaerke");
+            String[] rec = lineBuffer.toString().split("\t");
+            writer.writeNext(rec);
+            for(String format : formatList){
+                for (String farbe :farbeList){
+                    for (String vpe : vpeList){
+                        for (String staerke : staerkeList){
+                            String line = brand + "\t" + format + "\t" + farbe + "\t" + vpe + "\t" + staerke;
+                            lineBuffer = new StringBuilder(line);
+                            rec = lineBuffer.toString().split("\t");
+                            writer.writeNext(rec);
+                        }
+                    }
+                }
+            }
+            writer.close();
+        }
+    }
+
     public static void main(String[] args){
+        List brandList = new ArrayList<String>();
+        List formatList = new ArrayList<String>();
+        List farbeList = new ArrayList<String>();
+        List vpeList = new ArrayList<String>();
+        List staerkeList = new ArrayList<String>();
+
+        try {
+            readTrainingData("C:/Users/wang.daoping/Documents/git/feature_evaluation/keras_regression/kopierpapier_training_data.csv",
+                    brandList, formatList, farbeList, vpeList, staerkeList);
+            writeTestData("C:/Users/wang.daoping/Documents/git/feature_evaluation/keras_regression/",
+                    brandList, formatList, farbeList, vpeList, staerkeList);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
         tabletKeywordList.add("Tablet");
         tabletKeywordList.add("Tablet PC");
         tabletKeywordList.add("TabletPC");
@@ -209,7 +273,7 @@ public class csv_parser {
         //tabletFeatureList.add("Ã¶kologie");
 
         featureNameList.add("brand");
-
+/*
         try {
             collectArticles();
             collectFeatureValues();
@@ -223,5 +287,6 @@ public class csv_parser {
             e.printStackTrace();
         }
         System.out.println(duplicateSetHashMap.size());
+        */
     }
 }

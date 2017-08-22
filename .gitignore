@@ -105,3 +105,4 @@ fabric.properties
 /keras_regression/__pycache__/
 /keras_regression/tablets_training.csv
 /keras_regression/tablets_testing.csv
+*.csv
