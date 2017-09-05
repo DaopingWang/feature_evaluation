@@ -180,10 +180,16 @@ public class csv_parser {
             String filepath, List<String> brandList, List<String> formatList, List<String> farbeList, List<String> vpeList, List<String> staerkeList
     ) throws IOException{
         List<String> newBrandList = new ArrayList<>();
+        /*
         newBrandList.add("Clairefontaine");
         newBrandList.add("Mondi");
         newBrandList.add("Staples");
         newBrandList.add("Arjowiggins");
+        */
+        newBrandList.add("Xerox");
+        newBrandList.add("Papyrus");
+        newBrandList.add("Papier Union");
+        newBrandList.add("Igepa");
 
         for(String brand : newBrandList){
             String filename = brand + "_evaluation_data.csv";
@@ -217,7 +223,7 @@ public class csv_parser {
         List staerkeList = new ArrayList<String>();
 
         try {
-            readTrainingData("C:/Users/wang.daoping/Documents/git/feature_evaluation/keras_regression/kopierpapier_training_data.csv",
+            readTrainingData("C:/Users/wang.daoping/Documents/git/feature_evaluation/keras_regression/kopierpapier_training_enriched_cleaned_data.csv",
                     brandList, formatList, farbeList, vpeList, staerkeList);
             writeTestData("C:/Users/wang.daoping/Documents/git/feature_evaluation/keras_regression/",
                     brandList, formatList, farbeList, vpeList, staerkeList);
